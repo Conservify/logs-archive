@@ -1,0 +1,12 @@
+#!/bin/bash
+
+for a in ??/*; do
+	pushd $a
+	if [ -f DEBUG.LOG ]; then
+		cat DEBUG.LOG | python ../../tools/battery.py > battery.csv
+		gnuplot < ../../battery.gnuplot > battery.png
+	else
+		echo "No debug.log"
+	fi
+	popd
+done
