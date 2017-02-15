@@ -13,4 +13,4 @@ for line in fileinput.input():
 		fields = line.strip().split(' ')
 		time_utc = datetime.datetime.fromtimestamp(int(fields[1])).replace(tzinfo=from_zone)
 		time_local = time_utc.astimezone(to_zone)
-		print ','.join([ time_utc.strftime('%Y-%m-%d %H:%M:%S'), time_local.strftime('%Y-%m-%d %H:%M:%S'), fields[5] ])
+		print ','.join([ time_local.strftime('%s'), fields[5] ])

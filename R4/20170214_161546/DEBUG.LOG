@@ -1,0 +1,107 @@
+ResetCause: External Reset
+## 1487025636 2017/2/13 22:40:36 4143.75 94.65 >Begin
+Config: R4
+WS: off
+Preflight
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: hup
+Parsed 0 = 0.00
+Parsed -1 = -1.00
+Parsed 0.0 = 0.00
+Parsed 0.0 = 0.00
+Parsed 0 = 0.00
+Parsed 0.0 = 0.00
+Parsed 0 = 0.00
+Parsed 0.0 = 0.00
+Parsed 0 = 0.00
+Parsed 17.7 = 17.70
+Parsed 21.4 = 21.40
+Parsed 0.00 = 0.00
+Parsed 0.00 = 0.00
+Parsed 100902.50 = 100902.50
+Parsed 0.15 = 0.15
+Parsed 00 = 0.00
+Parsed -1 = -1.00
+Parsed 0.0 = 0.00
+Parsed 0.0 = 0.00
+Parsed 0 = 0.00
+Parsed 0.0 = 0.00
+Parsed 0 = 0.00
+Parsed 0.0 = 0.00
+Parsed 0 = 0.00
+Parsed 17.6 = 17.60
+Parsed 21.4 = 21.40
+Parsed 0.00 = 0.00
+Parsed 0.00 = 0.00
+Parsed 100899.25 = 100899.25
+Parsed 0.16 = 0.16
+Parsed 0.000000 = 0.00
+Parsed 0.000000 = 0.00
+WS: no reading: 32 22
+WS: no reading: 0 22
+Parsed 0 = 0.00
+Parsed -1 = -1.00
+Parsed 0.0 = 0.00
+Parsed 0.0 = 0.00
+Parsed 0 = 0.00
+Parsed 0.0 = 0.00
+Parsed 0 = 0.00
+Parsed 0.0 = 0.00
+Parsed 0 = 0.00
+Parsed 17.5 = 17.50
+Parsed 21.4 = 21.40
+Parsed 0.00 = 0.00
+Parsed 0.00 = 0.00
+Parsed 100898.50 = 100898.50
+Parsed 0.16 = 0.16
+Parsed 0.000000 = 0.00
+Parsed 0.000000 = 0.00
+Parsed 0.0000 = 0.00
+Parsed 0 = 0.00
+Parsed 0 = 0.00
+Parsed 0 = 0.00
+Parsed 1419 = 1419.00
+WS: have reading
+0.00,-1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,17.50,21.40,0.00,0.00,100898.50,0.16,0.00,0.00,0.00,0.00,0.00,0.00,1419.00
+WS: >CommunicationsOk
+WS: off
+preflight: Weather station good
+preflight: LoRa good
+Loop
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487026246 2017/2/13 22:50:46 4148.75 94.81 >WS
+WS: Check
+WS: hup
+
+&%%^
+
+WS: Done
+## 1487026257 2017/2/13 22:50:57 4150.00 94.81 >ID
+Idle: Begin
