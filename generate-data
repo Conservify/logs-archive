@@ -4,6 +4,7 @@ for a in ??/*; do
 	pushd $a
 	if [ -f DEBUG.LOG ]; then
 		cat DEBUG.LOG | python ../../tools/battery.py > battery.csv
+		cat DEBUG.LOG | python ../../tools/plot.py > plot.csv
 		gnuplot < ../../battery.gnuplot > battery.png
 	else
 		echo "No debug.log"

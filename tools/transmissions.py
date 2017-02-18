@@ -19,7 +19,9 @@ phase = None
 for line in fileinput.input():
 	msg = re.match(r'^Message: (\d+),(.+)', line.strip())
 	if msg:
-		print msg.group(1), msg.group(2)
+		time = datetime.datetime.fromtimestamp(int(msg.group(1))).replace(tzinfo=from_zone)
+		print time, msg.group(2)
+
 	tx = re.match(r'^## (\d+).+TX$', line.strip())
 	if tx:
 		time = datetime.datetime.fromtimestamp(int(tx.group(1))).replace(tzinfo=from_zone)
