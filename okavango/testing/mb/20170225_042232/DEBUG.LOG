@@ -1,0 +1,1677 @@
+## 1487954955 2017/2/24 16:49:15 0 3962.50 77.81 >Begin
+ResetCause: PoR
+Config: MB
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< ø>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: hup
+WS: on
+WS: have reading
+0.00,-1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,86.70,25.70,0.00,0.00,90279.75,0.07,0.00,0.00,0.00,0.00,0.00,0.00,444.00
+WS: >CommunicationsOk
+WS: off
+preflight: Weather station good
+preflight: LoRa good
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487955599 2017/2/24 16:59:59 0 3997.50 77.32 >WS
+WS: Check
+WS: hup
+WS: on
+
+&%%^
+
+WS: Done
+## 1487955609 2017/2/24 17:0:9 1 3978.75 77.32 >ID
+Idle: Begin
+Idle: Done
+## 1487956243 2017/2/24 17:10:43 1 3972.50 76.02 >TX
+TS: #0: +24 % 24 == 17 previousHour=0 hour=17 0
+TS: #1: +0 % 6 == 5 previousHour=0 hour=17 0
+TS: #2: +2 % 6 == 1 previousHour=0 hour=17 0
+TS: -1
+## 1487956243 2017/2/24 17:10:43 1 3972.50 76.02 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487956843 2017/2/24 17:20:43 1 3965.00 74.87 >WS
+WS: Check
+
+WS: Done
+## 1487956853 2017/2/24 17:20:53 1 3970.00 74.87 >ID
+Idle: Begin
+Idle: Done
+## 1487957487 2017/2/24 17:31:27 1 3961.25 74.05 >TX
+TS: #0: +24 % 24 == 17 previousHour=0 hour=17 0
+TS: #1: +0 % 6 == 5 previousHour=0 hour=17 0
+TS: #2: +2 % 6 == 1 previousHour=0 hour=17 0
+TS: -1
+## 1487957487 2017/2/24 17:31:27 1 3961.25 74.05 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487958088 2017/2/24 17:41:28 1 3956.25 73.07 >WS
+WS: Check
+WS: >Reading
+WS: have reading
+1487958144.00,-1.00,0.00,0.00,0.00,0.00,359.00,0.00,0.00,71.90,27.80,0.00,0.00,90331.25,0.00,-19.26,22.61,965.20,8.00,240217.00,17414800.00,967821.00
+WS: >Off
+
+&%Clock Adjusted before=1487958090
+%%^
+WS: off
+
+WS: Done
+## 1487958152 2017/2/24 17:42:32 0 3967.50 73.07 >ID
+Idle: Begin
+Idle: Done
+## 1487958789 2017/2/24 17:53:9 0 3977.50 73.07 >TX
+TS: #0: +24 % 24 == 17 previousHour=0 hour=17 0
+TS: #1: +0 % 6 == 5 previousHour=0 hour=17 0
+TS: #2: +2 % 6 == 1 previousHour=0 hour=17 0
+TS: -1
+## 1487958789 2017/2/24 17:53:9 0 3977.50 73.07 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487959389 2017/2/24 18:3:9 0 3972.50 72.91 >WS
+WS: Check
+
+WS: Done
+## 1487959399 2017/2/24 18:3:19 0 3973.75 72.91 >ID
+Idle: Begin
+Idle: Done
+## 1487960037 2017/2/24 18:13:57 0 3966.25 72.91 >TX
+TS: #0: +24 % 24 == 18 previousHour=0 hour=18 0
+TS: #1: +0 % 6 == 0 previousHour=0 hour=18 1
+TS: #2: +2 % 6 == 2 previousHour=0 hour=18 0
+TS: 1
+TS: sendSensorTransmission: 2 atlas sonar
+End of queue
+End of queue
+## 1487960037 2017/2/24 18:13:57 0 3966.25 72.91 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487960638 2017/2/24 18:23:58 0 3963.75 72.58 >WS
+WS: Check
+
+WS: Done
+## 1487960648 2017/2/24 18:24:8 0 3965.00 72.58 >ID
+Idle: Begin
+Idle: Done
+## 1487961286 2017/2/24 18:34:46 0 3962.50 72.41 >TX
+TS: #0: +24 % 24 == 18 previousHour=0 hour=18 0
+TS: #1: +0 % 6 == 0 previousHour=19 hour=18 0
+TS: #2: +2 % 6 == 2 previousHour=0 hour=18 0
+TS: -1
+## 1487961286 2017/2/24 18:34:46 0 3962.50 72.41 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487961887 2017/2/24 18:44:47 0 3955.00 72.09 >WS
+WS: Check
+WS: >Ignoring
+WS: hup
+WS: on
+
+WS: Done
+## 1487961897 2017/2/24 18:44:57 1 3935.00 72.09 >ID
+Idle: Begin
+Idle: Done
+## 1487962531 2017/2/24 18:55:31 1 3933.75 70.77 >TX
+TS: #0: +24 % 24 == 18 previousHour=0 hour=18 0
+TS: #1: +0 % 6 == 0 previousHour=19 hour=18 0
+TS: #2: +2 % 6 == 2 previousHour=0 hour=18 0
+TS: -1
+## 1487962531 2017/2/24 18:55:31 1 3933.75 70.77 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487963132 2017/2/24 19:5:32 1 3927.50 69.62 >WS
+WS: Check
+
+WS: Done
+## 1487963142 2017/2/24 19:5:42 1 3931.25 69.62 >ID
+Idle: Begin
+Idle: Done
+## 1487963774 2017/2/24 19:16:14 1 3922.50 68.80 >TX
+TS: #0: +24 % 24 == 19 previousHour=0 hour=19 0
+TS: #1: +0 % 6 == 1 previousHour=19 hour=19 0
+TS: #2: +2 % 6 == 3 previousHour=0 hour=19 0
+TS: -1
+## 1487963774 2017/2/24 19:16:14 1 3922.50 68.80 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487964375 2017/2/24 19:26:15 1 3912.50 67.88 >WS
+WS: Check
+
+WS: Done
+## 1487964385 2017/2/24 19:26:25 1 3915.00 67.73 >ID
+Idle: Begin
+Idle: Done
+## 1487965017 2017/2/24 19:36:57 1 3906.25 67.01 >TX
+TS: #0: +24 % 24 == 19 previousHour=0 hour=19 0
+TS: #1: +0 % 6 == 1 previousHour=0 hour=19 0
+TS: #2: +2 % 6 == 3 previousHour=0 hour=19 0
+TS: -1
+## 1487965017 2017/2/24 19:36:57 1 3906.25 67.01 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487965618 2017/2/24 19:46:58 1 3900.00 66.29 >WS
+WS: Check
+WS: >Reading
+WS: have reading
+1487965568.00,-1.00,0.00,0.00,0.00,0.00,359.00,0.00,0.00,58.50,32.40,0.00,0.00,90525.25,0.00,-19.26,22.61,969.00,8.00,240217.00,19462300.00,1576184.00
+WS: >Off
+
+&%Clock Adjusted before=1487965619
+%%^
+WS: off
+
+WS: Done
+## 1487965577 2017/2/24 19:46:17 0 3917.50 66.29 >ID
+Idle: Begin
+Idle: Done
+## 1487966212 2017/2/24 19:56:52 0 3922.50 66.58 >TX
+TS: #0: +24 % 24 == 19 previousHour=0 hour=19 0
+TS: #1: +0 % 6 == 1 previousHour=0 hour=19 0
+TS: #2: +2 % 6 == 3 previousHour=0 hour=19 0
+TS: -1
+## 1487966212 2017/2/24 19:56:52 0 3922.50 66.58 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487966812 2017/2/24 20:6:52 0 3926.25 66.58 >WS
+WS: Check
+
+WS: Done
+## 1487966822 2017/2/24 20:7:2 0 3927.50 66.58 >ID
+Idle: Begin
+Idle: Done
+## 1487967458 2017/2/24 20:17:38 0 3922.50 66.72 >TX
+TS: #0: +24 % 24 == 20 previousHour=0 hour=20 0
+TS: #1: +0 % 6 == 2 previousHour=0 hour=20 0
+TS: #2: +2 % 6 == 4 previousHour=0 hour=20 0
+TS: -1
+## 1487967458 2017/2/24 20:17:38 0 3922.50 66.72 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487968059 2017/2/24 20:27:39 0 3915.00 66.58 >WS
+WS: Check
+
+WS: Done
+## 1487968069 2017/2/24 20:27:49 0 3917.50 66.58 >ID
+Idle: Begin
+Idle: Done
+## 1487968705 2017/2/24 20:38:25 0 3917.50 66.58 >TX
+TS: #0: +24 % 24 == 20 previousHour=0 hour=20 0
+TS: #1: +0 % 6 == 2 previousHour=0 hour=20 0
+TS: #2: +2 % 6 == 4 previousHour=0 hour=20 0
+TS: -1
+## 1487968705 2017/2/24 20:38:25 0 3917.50 66.58 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487969306 2017/2/24 20:48:26 0 3920.00 66.43 >WS
+WS: Check
+WS: >Ignoring
+WS: hup
+WS: on
+
+WS: Done
+## 1487969316 2017/2/24 20:48:36 1 3900.00 66.43 >ID
+Idle: Begin
+Idle: Done
+## 1487969949 2017/2/24 20:59:9 1 3892.50 65.28 >TX
+TS: #0: +24 % 24 == 20 previousHour=0 hour=20 0
+TS: #1: +0 % 6 == 2 previousHour=0 hour=20 0
+TS: #2: +2 % 6 == 4 previousHour=0 hour=20 0
+TS: -1
+## 1487969949 2017/2/24 20:59:9 1 3892.50 65.28 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487970550 2017/2/24 21:9:10 1 3886.25 64.27 >WS
+WS: Check
+
+WS: Done
+## 1487970560 2017/2/24 21:9:20 1 3880.00 64.27 >ID
+Idle: Begin
+Idle: Done
+## 1487971192 2017/2/24 21:19:52 1 3886.25 63.54 >TX
+TS: #0: +24 % 24 == 21 previousHour=0 hour=21 0
+TS: #1: +0 % 6 == 3 previousHour=0 hour=21 0
+TS: #2: +2 % 6 == 5 previousHour=0 hour=21 0
+TS: -1
+## 1487971192 2017/2/24 21:19:52 1 3886.25 63.54 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487971792 2017/2/24 21:29:52 1 3872.50 62.82 >WS
+WS: Check
+
+WS: Done
+## 1487971802 2017/2/24 21:30:2 1 3877.50 62.82 >ID
+Idle: Begin
+Idle: Done
+## 1487972434 2017/2/24 21:40:34 1 3872.50 62.24 >TX
+TS: #0: +24 % 24 == 21 previousHour=0 hour=21 0
+TS: #1: +0 % 6 == 3 previousHour=0 hour=21 0
+TS: #2: +2 % 6 == 5 previousHour=0 hour=21 0
+TS: -1
+## 1487972434 2017/2/24 21:40:34 1 3870.00 62.24 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487973034 2017/2/24 21:50:34 1 3860.00 61.52 >WS
+WS: Check
+WS: >Reading
+WS: have reading
+1487972992.00,-1.00,0.00,0.00,0.00,0.00,359.00,0.00,0.00,56.60,32.80,0.00,0.00,90516.75,0.00,-19.26,22.61,964.90,7.00,240217.00,21505000.00,1507915.00
+WS: >Off
+
+&%Clock Adjusted before=1487973036
+%%^
+WS: off
+
+WS: Done
+## 1487973000 2017/2/24 21:50:0 0 3880.00 61.52 >ID
+Idle: Begin
+Idle: Done
+## 1487973635 2017/2/24 22:0:35 0 3881.25 61.95 >TX
+TS: #0: +24 % 24 == 22 previousHour=0 hour=22 0
+TS: #1: +0 % 6 == 4 previousHour=0 hour=22 0
+TS: #2: +2 % 6 == 0 previousHour=0 hour=22 1
+TS: 2
+TS: sendSensorTransmission: 4 weather
+End of queue
+Message: 1487972992,MB,WE,3881.25,61.95,61.52,32.80,56.60,90516.75,0.00,359.00,0.00,0.00,0.00
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+RB: Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=84
+Waiting for response READY
+
+<< AT+SBDWB=84
+READY
+[84 bytes]Checksum:4265
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+RB: send failed: 7
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+RB: Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=84
+Waiting for response READY
+
+<< AT+SBDWB=84
+READY
+[84 bytes]Checksum:4265
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+RB: send failed: 7
+RB: Done
+RockBlock: 0
+## 1487974251 2017/2/24 22:10:51 0 3880.00 61.95 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487974851 2017/2/24 22:20:51 0 3880.00 61.95 >WS
+WS: Check
+
+WS: Done
+## 1487974861 2017/2/24 22:21:1 0 3882.50 61.95 >ID
+Idle: Begin
+Idle: Done
+## 1487975497 2017/2/24 22:31:37 0 3882.50 61.95 >TX
+TS: #0: +24 % 24 == 22 previousHour=0 hour=22 0
+TS: #1: +0 % 6 == 4 previousHour=0 hour=22 0
+TS: #2: +2 % 6 == 0 previousHour=23 hour=22 0
+TS: -1
+## 1487975497 2017/2/24 22:31:37 0 3882.50 61.95 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487976098 2017/2/24 22:41:38 0 3872.50 61.95 >WS
+WS: Check
+WS: >Ignoring
+WS: hup
+WS: on
+
+WS: Done
+## 1487976108 2017/2/24 22:41:48 1 3858.75 61.95 >ID
+Idle: Begin
+Idle: Done
+## 1487976741 2017/2/24 22:52:21 1 3857.50 61.06 >TX
+TS: #0: +24 % 24 == 22 previousHour=0 hour=22 0
+TS: #1: +0 % 6 == 4 previousHour=0 hour=22 0
+TS: #2: +2 % 6 == 0 previousHour=23 hour=22 0
+TS: -1
+## 1487976741 2017/2/24 22:52:21 1 3857.50 61.06 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487977342 2017/2/24 23:2:22 1 3843.75 59.79 >WS
+WS: Check
+
+WS: Done
+## 1487977352 2017/2/24 23:2:32 1 3842.50 59.79 >ID
+Idle: Begin
+Idle: Done
+Mandatory restart triggered.
+Restarting: 12220168 10911744 
+Message: 1487977984,MB,ST,3837.50,58.53,1,1,0,10911744,1,2,4,0,0,0,615.09,600000,600000,10000,60000,1800000,1800000,120000,24,24,0,6,2,6,385
+Calling internalBegin
+RB: No RockBlock
+RockBlock: 0
+Message: 1487977984,MB,ST,3837.50,58.53,1,1,0,10911744,2,2,4,0,0,0,307.56,600000,600000,10000,60000,1800000,1800000,120000,24,24,0,6,2,6,385
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+RB: Signal quality: 1
+internalSendReceive
+>> AT+SBDWB=131
+Waiting for response READY
+
+<< AT+SBDWB=131
+READY
+[131 bytes]Checksum:6535
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:4
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a62d298
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 0, 94, 0, 0, 0, 0
+
+OK
+SBDIX MO code: 0
+SBDIX success!
+RB: Done
+RockBlock: 1
+## 1487978143 2017/2/24 23:15:43 0 3830.00 55.68 >Begin
+ResetCause: Software
+Config: MB
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: hup
+WS: on
+WS: have reading
+0.00,-1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,58.30,31.80,0.00,0.00,90467.75,0.00,0.00,0.00,0.00,0.00,0.00,0.00,387.00
+WS: >CommunicationsOk
+WS: off
+preflight: Weather station good
+preflight: LoRa good
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487978757 2017/2/24 23:25:57 0 3863.75 56.31 >WS
+WS: Check
+WS: hup
+WS: on
+
+&%%^
+
+WS: Done
+## 1487978767 2017/2/24 23:26:7 1 3845.00 56.31 >ID
+Idle: Begin
+Idle: Done
+## 1487979399 2017/2/24 23:36:39 1 3840.00 55.36 >TX
+TS: #0: +24 % 24 == 23 previousHour=0 hour=23 0
+TS: #1: +0 % 6 == 5 previousHour=0 hour=23 0
+TS: #2: +2 % 6 == 1 previousHour=0 hour=23 0
+TS: -1
+## 1487979399 2017/2/24 23:36:39 1 3840.00 55.36 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487980000 2017/2/24 23:46:40 1 3831.25 54.41 >WS
+WS: Check
+
+WS: Done
+## 1487980010 2017/2/24 23:46:50 1 3832.50 54.41 >ID
+Idle: Begin
+Idle: Done
+## 1487980642 2017/2/24 23:57:22 1 3826.25 53.78 >TX
+TS: #0: +24 % 24 == 23 previousHour=0 hour=23 0
+TS: #1: +0 % 6 == 5 previousHour=0 hour=23 0
+TS: #2: +2 % 6 == 1 previousHour=0 hour=23 0
+TS: -1
+## 1487980642 2017/2/24 23:57:22 1 3826.25 53.78 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487981242 2017/2/25 0:7:22 1 3820.00 52.70 >WS
+WS: Check
+WS: >Reading
+WS: have reading
+1487981312.00,-1.00,0.00,0.00,0.00,0.00,359.00,0.00,0.00,55.30,32.60,0.00,0.00,90428.75,0.00,-19.26,22.61,966.60,7.00,250217.00,82100.00,1008770.00
+WS: >Off
+
+&%Clock Adjusted before=1487981244
+%%^
+WS: off
+
+WS: Done
+## 1487981320 2017/2/25 0:8:40 0 3832.50 52.70 >ID
+Idle: Begin
+Idle: Done
+## 1487981955 2017/2/25 0:19:15 0 3845.00 52.70 >TX
+TS: #0: +24 % 24 == 0 previousHour=0 hour=0 1
+TS: #1: +0 % 6 == 0 previousHour=0 hour=0 1
+TS: #2: +2 % 6 == 2 previousHour=0 hour=0 0
+TS: 0
+Message: 1487981312,MB,LO,3845.00,52.70,-19.264193,22.613480,966.60,62
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+RB: Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=61
+Waiting for response READY
+
+<< AT+SBDWB=61
+READY
+[61 bytes]Checksum:3163
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:4
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a638327
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 0, 95, 0, 0, 0, 0
+
+OK
+SBDIX MO code: 0
+SBDIX success!
+RB: Done
+RockBlock: 1
+## 1487982270 2017/2/25 0:24:30 0 3832.50 52.31 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487982871 2017/2/25 0:34:31 0 3840.00 52.31 >WS
+WS: Check
+
+WS: Done
+## 1487982881 2017/2/25 0:34:41 0 3842.50 52.31 >ID
+Idle: Begin
+Idle: Done
+## 1487983517 2017/2/25 0:45:17 0 3841.25 52.31 >TX
+TS: #0: +24 % 24 == 0 previousHour=1 hour=0 0
+TS: #1: +0 % 6 == 0 previousHour=0 hour=0 1
+TS: #2: +2 % 6 == 2 previousHour=0 hour=0 0
+TS: 1
+TS: sendSensorTransmission: 2 atlas sonar
+End of queue
+End of queue
+## 1487983517 2017/2/25 0:45:17 0 3841.25 52.31 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487984118 2017/2/25 0:55:18 0 3837.50 52.31 >WS
+WS: Check
+
+WS: Done
+## 1487984128 2017/2/25 0:55:28 0 3840.00 52.31 >ID
+Idle: Begin
+Idle: Done
+## 1487984765 2017/2/25 1:6:5 0 3835.00 52.31 >TX
+TS: #0: +24 % 24 == 1 previousHour=1 hour=1 0
+TS: #1: +0 % 6 == 1 previousHour=1 hour=1 0
+TS: #2: +2 % 6 == 3 previousHour=0 hour=1 0
+TS: -1
+## 1487984765 2017/2/25 1:6:5 0 3835.00 52.31 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487985365 2017/2/25 1:16:5 0 3835.00 51.93 >WS
+WS: Check
+WS: >Ignoring
+WS: hup
+WS: on
+
+WS: Done
+## 1487985375 2017/2/25 1:16:15 1 3812.50 51.93 >ID
+Idle: Begin
+Idle: Done
+## 1487986009 2017/2/25 1:26:49 1 3807.50 50.39 >TX
+TS: #0: +24 % 24 == 1 previousHour=0 hour=1 0
+TS: #1: +0 % 6 == 1 previousHour=0 hour=1 0
+TS: #2: +2 % 6 == 3 previousHour=0 hour=1 0
+TS: -1
+## 1487986009 2017/2/25 1:26:49 1 3807.50 50.39 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487986609 2017/2/25 1:36:49 1 3797.50 48.86 >WS
+WS: Check
+
+WS: Done
+## 1487986620 2017/2/25 1:37:0 1 3798.75 48.86 >ID
+Idle: Begin
+Idle: Done
+## 1487987252 2017/2/25 1:47:32 1 3795.00 47.32 >TX
+TS: #0: +24 % 24 == 1 previousHour=0 hour=1 0
+TS: #1: +0 % 6 == 1 previousHour=0 hour=1 0
+TS: #2: +2 % 6 == 3 previousHour=0 hour=1 0
+TS: -1
+## 1487987252 2017/2/25 1:47:32 1 3795.00 47.32 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487987852 2017/2/25 1:57:32 1 3787.50 45.69 >WS
+WS: Check
+
+WS: Done
+## 1487987862 2017/2/25 1:57:42 1 3790.00 45.69 >ID
+Idle: Begin
+Idle: Done
+## 1487988494 2017/2/25 2:8:14 1 3780.00 44.05 >TX
+TS: #0: +24 % 24 == 2 previousHour=0 hour=2 0
+TS: #1: +0 % 6 == 2 previousHour=0 hour=2 0
+TS: #2: +2 % 6 == 4 previousHour=0 hour=2 0
+TS: -1
+## 1487988494 2017/2/25 2:8:14 1 3780.00 44.05 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487989094 2017/2/25 2:18:14 1 3775.00 42.41 >WS
+WS: Check
+WS: >Reading
+WS: have reading
+1487989120.00,-1.00,0.00,0.00,0.00,0.00,359.00,0.00,0.00,55.30,32.60,0.00,0.00,90376.75,0.00,-19.26,22.61,961.10,7.00,250217.00,2180500.00,1611836.00
+WS: >Off
+
+&%Clock Adjusted before=1487989096
+%%^
+WS: off
+
+WS: Done
+## 1487989129 2017/2/25 2:18:49 0 3795.00 42.41 >ID
+Idle: Begin
+Idle: Done
+## 1487989764 2017/2/25 2:29:24 0 3798.75 42.00 >TX
+TS: #0: +24 % 24 == 2 previousHour=0 hour=2 0
+TS: #1: +0 % 6 == 2 previousHour=0 hour=2 0
+TS: #2: +2 % 6 == 4 previousHour=0 hour=2 0
+TS: -1
+## 1487989764 2017/2/25 2:29:24 0 3798.75 42.00 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487990364 2017/2/25 2:39:24 0 3797.50 41.19 >WS
+WS: Check
+
+WS: Done
+## 1487990374 2017/2/25 2:39:34 0 3800.00 41.19 >ID
+Idle: Begin
+Idle: Done
+## 1487991011 2017/2/25 2:50:11 0 3800.00 40.82 >TX
+TS: #0: +24 % 24 == 2 previousHour=0 hour=2 0
+TS: #1: +0 % 6 == 2 previousHour=0 hour=2 0
+TS: #2: +2 % 6 == 4 previousHour=0 hour=2 0
+TS: -1
+## 1487991011 2017/2/25 2:50:11 0 3800.00 40.82 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487991612 2017/2/25 3:0:12 0 3795.00 40.46 >WS
+WS: Check
+
+WS: Done
+## 1487991622 2017/2/25 3:0:22 0 3793.75 40.46 >ID
+Idle: Begin
+Idle: Done
+## 1487992259 2017/2/25 3:10:59 0 3797.50 40.11 >TX
+TS: #0: +24 % 24 == 3 previousHour=0 hour=3 0
+TS: #1: +0 % 6 == 3 previousHour=0 hour=3 0
+TS: #2: +2 % 6 == 5 previousHour=0 hour=3 0
+TS: -1
+## 1487992259 2017/2/25 3:10:59 0 3797.50 40.11 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487992859 2017/2/25 3:20:59 0 3792.50 39.75 >WS
+WS: Check
+WS: >Ignoring
+WS: hup
+WS: on
+
+WS: Done
+## 1487992870 2017/2/25 3:21:10 1 3770.00 39.75 >ID
+Idle: Begin
+Idle: Done
+## 1487993503 2017/2/25 3:31:43 1 3761.25 37.94 >TX
+TS: #0: +24 % 24 == 3 previousHour=0 hour=3 0
+TS: #1: +0 % 6 == 3 previousHour=0 hour=3 0
+TS: #2: +2 % 6 == 5 previousHour=0 hour=3 0
+TS: -1
+## 1487993503 2017/2/25 3:31:43 1 3761.25 37.94 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487994104 2017/2/25 3:41:44 1 3752.50 36.14 >WS
+WS: Check
+
+WS: Done
+## 1487994114 2017/2/25 3:41:54 1 3753.75 36.14 >ID
+Idle: Begin
+Idle: Done
+## 1487994746 2017/2/25 3:52:26 1 3748.75 34.27 >TX
+TS: #0: +24 % 24 == 3 previousHour=0 hour=3 0
+TS: #1: +0 % 6 == 3 previousHour=0 hour=3 0
+TS: #2: +2 % 6 == 5 previousHour=0 hour=3 0
+TS: -1
+## 1487994746 2017/2/25 3:52:26 1 3748.75 34.27 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487995347 2017/2/25 4:2:27 1 3735.00 32.55 >WS
+WS: Check
+
+WS: Done
+## 1487995357 2017/2/25 4:2:37 1 3738.75 32.55 >ID
+Idle: Begin
+Idle: Done
+## 1487995989 2017/2/25 4:13:9 1 3730.00 30.40 >TX
+TS: #0: +24 % 24 == 4 previousHour=0 hour=4 0
+TS: #1: +0 % 6 == 4 previousHour=0 hour=4 0
+TS: #2: +2 % 6 == 0 previousHour=0 hour=4 1
+TS: 2
+TS: sendSensorTransmission: 3 weather
+End of queue
+Message: 1487989120,MB,WE,3730.00,30.40,42.41,32.60,55.30,90376.75,0.00,359.00,0.00,0.00,0.00
+Calling internalBegin
+RB: No RockBlock
+RockBlock: 0
+## 1487995989 2017/2/25 4:13:9 1 3730.00 30.40 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487996589 2017/2/25 4:23:9 1 3725.00 28.25 >WS
+WS: Check
+WS: >Reading
+WS: have reading
+1487996544.00,-1.00,0.00,0.00,0.00,0.00,359.00,0.00,0.00,58.60,30.90,0.00,0.00,90450.25,0.00,-19.26,22.61,967.00,5.00,250217.00,4223500.00,1562798.00
+WS: >Off
+
+&%Clock Adjusted before=1487996591
+%%^
+WS: off
+
+WS: Done
+## 1487996552 2017/2/25 4:22:32 0 3740.00 28.25 >ID
+Idle: Begin
