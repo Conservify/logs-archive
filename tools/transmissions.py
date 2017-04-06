@@ -15,12 +15,17 @@ class TransmissionPhase:
 	def transmitted(self, which):
 		pass
 
+device_time = None
 phase = None
 for line in fileinput.input():
+	transition = re.match(r'^## (\d+)', line.strip())
+	if transition:
+		device_time = datetime.datetime.fromtimestamp(int(transition.group(1))).replace(tzinfo=from_zone)
+
 	msg = re.match(r'^Message: (\d+),(.+)', line.strip())
 	if msg:
-		time = datetime.datetime.fromtimestamp(int(msg.group(1))).replace(tzinfo=from_zone)
-		print time, msg.group(2)
+		message_time = datetime.datetime.fromtimestamp(int(msg.group(1))).replace(tzinfo=from_zone)
+		print device_time, message_time, msg.group(2)
 
 	tx = re.match(r'^## (\d+).+TX$', line.strip())
 	if tx:

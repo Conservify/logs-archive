@@ -1,0 +1,7370 @@
+SHA1: BUILD_COMMIT
+## 1487522540 2017/2/19 16:42:20 0 4186.25 99.24 >Begin
+ResetCause: External Reset
+Config: R4
+WS: off
+Preflight
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: hup
+WS: on
+WS: have reading
+0.00,-1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,21.30,25.40,0.00,0.00,100640.75,3.10,0.00,0.00,0.00,0.00,0.00,0.00,371.00
+WS: >CommunicationsOk
+WS: off
+preflight: Weather station good
+preflight: LoRa good
+Loop
+AW: RR
+P:0
+Ponging!
+P:0
+Ponging!
+P:0
+Ponging!
+P:4
+Queuing
+Acking
+P:7
+Queuing
+Acking
+
+AW: Done
+AW: Exit
+## 1487523153 2017/2/19 16:52:33 0 4187.50 99.40 >WS
+WS: Check
+WS: hup
+WS: on
+
+&%%^
+
+WS: Done
+## 1487523164 2017/2/19 16:52:44 1 4187.50 99.40 >ID
+Idle: Begin
+Idle: Done
+## 1487523794 2017/2/19 17:3:14 1 4190.00 99.71 >TX
+TS: #0: +24 % 24 == 17 previousHour=0 hour=17 0
+TS: #1: +0 % 6 == 5 previousHour=0 hour=17 0
+TS: #2: +2 % 6 == 1 previousHour=0 hour=17 0
+TS: -1
+## 1487523794 2017/2/19 17:3:14 1 4190.00 99.71 >AW
+AW: RR
+P:0
+Ponging!
+P:0
+Ponging!
+P:1
+Ignore pong
+P:4
+Queuing
+Acking
+P:4
+Queuing
+Acking
+P:7
+Queuing
+Acking
+
+AW: Done
+AW: Exit
+## 1487524394 2017/2/19 17:13:14 1 4188.75 99.87 >WS
+WS: Check
+
+WS: Done
+## 1487524404 2017/2/19 17:13:24 1 4191.25 99.87 >ID
+Idle: Begin
+Idle: Done
+## 1487525035 2017/2/19 17:23:55 1 4193.75 100.19 >TX
+TS: #0: +24 % 24 == 17 previousHour=0 hour=17 0
+TS: #1: +0 % 6 == 5 previousHour=0 hour=17 0
+TS: #2: +2 % 6 == 1 previousHour=0 hour=17 0
+TS: -1
+## 1487525035 2017/2/19 17:23:55 1 4193.75 100.19 >AW
+AW: RR
+P:0
+Ponging!
+P:4
+Queuing
+Acking
+P:4
+Queuing
+Acking
+P:7
+Queuing
+Acking
+P:2
+Ack
+
+AW: Done
+AW: Exit
+## 1487525635 2017/2/19 17:33:55 1 4192.50 100.35 >WS
+WS: Check
+WS: >Reading
+WS: have reading
+1487525632.00,-1.00,0.00,0.00,0.00,0.00,359.00,0.00,0.00,18.50,27.20,0.00,0.00,100621.75,3.07,41.31,-72.93,-19.10,7.00,190217.00,17342300.00,962676.00
+WS: >Off
+
+&%Clock Adjusted before=1487525637
+%%^
+WS: off
+
+WS: Done
+## 1487525640 2017/2/19 17:34:0 0 4193.75 100.35 >ID
+Idle: Begin
+Idle: Done
+## 1487526272 2017/2/19 17:44:32 0 4196.25 100.66 >TX
+TS: #0: +24 % 24 == 17 previousHour=0 hour=17 0
+TS: #1: +0 % 6 == 5 previousHour=0 hour=17 0
+TS: #2: +2 % 6 == 1 previousHour=0 hour=17 0
+TS: -1
+## 1487526272 2017/2/19 17:44:32 0 4196.25 100.66 >AW
+AW: RR
+P:0
+Ponging!
+P:4
+Queuing
+Acking
+P:4
+Queuing
+Acking
+P:4
+Queuing
+Acking
+P:7
+Queuing
+Acking
+P:7
+Queuing
+Acking
+
+AW: Done
+AW: Exit
+## 1487526873 2017/2/19 17:54:33 0 4196.25 100.82 >WS
+WS: Check
+
+WS: Done
+## 1487526883 2017/2/19 17:54:43 0 4197.50 100.82 >ID
+Idle: Begin
+Idle: Done
+## 1487527515 2017/2/19 18:5:15 0 4198.75 100.98 >TX
+TS: #0: +24 % 24 == 18 previousHour=0 hour=18 0
+TS: #1: +0 % 6 == 0 previousHour=0 hour=18 1
+TS: #2: +2 % 6 == 2 previousHour=0 hour=18 0
+TS: 1
+TS: sendSensorTransmission: 15 atlas sonar
+End of queue
+End of queue
+Message: 1487526688,R4,AT,4198.75,100.98,4.36,0.00,-698.60,14.00,0.00,0.00,0.00,1.00, nan,0.00, nan,-1000.00
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=99
+Waiting for response READY
+
+<< AT+SBDWB=99
+READY
+[99 bytes]Checksum:5219
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a166c79
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 32, 84, 2, 0, 0, 0
+
+OK
+SBDIX MO code: 32
+Waiting for SBDIX retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+SB: send failed: 7
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:5
+
+OK
+Signal quality: 5
+internalSendReceive
+>> AT+SBDWB=99
+Waiting for response READY
+
+<< AT+SBDWB=99
+READY
+[99 bytes]Checksum:5219
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:5
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a167a45
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 32, 84, 2, 0, 0, 0
+
+OK
+SBDIX MO code: 32
+Waiting for SBDIX retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+SB: send failed: 7
+Powering off RockBLOCK...!
+Done
+RockBlock: 0
+Message: 1487526665,R4,SO,4200.00,101.14,4.35,0.00,1.00,2.00,3.00,4.00
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=61
+Waiting for response READY
+
+<< AT+SBDWB=61
+READY
+[61 bytes]Checksum:3061
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:3
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a1693a5
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 32, 84, 2, 0, 0, 0
+
+OK
+SBDIX MO code: 32
+Waiting for SBDIX retry...
+SBDIX timeout!
+SB: send failed: 7
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=61
+Waiting for response READY
+
+<< AT+SBDWB=61
+READY
+[61 bytes]Checksum:3061
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a169fbf
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 32, 84, 2, 0, 0, 0
+
+OK
+SBDIX MO code: 32
+Waiting for SBDIX retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+SB: send failed: 7
+Powering off RockBLOCK...!
+Done
+RockBlock: 0
+## 1487528787 2017/2/19 18:26:27 0 4200.00 101.30 >AW
+AW: RR
+P:0
+Ponging!
+P:4
+Queuing
+Acking
+P:7
+Queuing
+Acking
+P:4
+Queuing
+Acking
+P:7
+Queuing
+Acking
+
+AW: Done
+AW: Exit
+## 1487529388 2017/2/19 18:36:28 0 4201.25 101.46 >WS
+WS: Check
+WS: >Ignoring
+WS: hup
+WS: on
+
+WS: Done
+## 1487529398 2017/2/19 18:36:38 1 4193.75 101.46 >ID
+Idle: Begin
+Idle: Done
+## 1487530028 2017/2/19 18:47:8 1 4196.25 101.46 >TX
+TS: #0: +24 % 24 == 18 previousHour=0 hour=18 0
+TS: #1: +0 % 6 == 0 previousHour=19 hour=18 0
+TS: #2: +2 % 6 == 2 previousHour=0 hour=18 0
+TS: -1
+## 1487530028 2017/2/19 18:47:8 1 4196.25 101.46 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487530629 2017/2/19 18:57:9 1 4191.25 101.14 >WS
+WS: Check
+
+WS: Done
+## 1487530639 2017/2/19 18:57:19 1 4191.25 101.14 >ID
+Idle: Begin
+Idle: Done
+## 1487531268 2017/2/19 19:7:48 1 4191.25 100.98 >TX
+TS: #0: +24 % 24 == 19 previousHour=0 hour=19 0
+TS: #1: +0 % 6 == 1 previousHour=19 hour=19 0
+TS: #2: +2 % 6 == 3 previousHour=0 hour=19 0
+TS: -1
+## 1487531268 2017/2/19 19:7:48 1 4191.25 100.98 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487531869 2017/2/19 19:17:49 1 4187.50 100.82 >WS
+WS: Check
+
+WS: Done
+## 1487531879 2017/2/19 19:17:59 1 4188.75 100.82 >ID
+Idle: Begin
+Idle: Done
+## 1487532509 2017/2/19 19:28:29 1 4188.75 100.66 >TX
+TS: #0: +24 % 24 == 19 previousHour=0 hour=19 0
+TS: #1: +0 % 6 == 1 previousHour=0 hour=19 0
+TS: #2: +2 % 6 == 3 previousHour=0 hour=19 0
+TS: -1
+## 1487532509 2017/2/19 19:28:29 1 4188.75 100.66 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487533109 2017/2/19 19:38:29 1 4183.75 100.51 >WS
+WS: Check
+WS: >Reading
+WS: have reading
+1487533184.00,-1.00,0.00,0.00,0.00,0.00,359.00,0.00,0.00,20.90,27.00,0.00,0.00,100628.00,3.07,41.31,-72.93,30.30,8.00,190217.00,19390100.00,1461588.00
+WS: >Off
+
+&%Clock Adjusted before=1487533111
+%%^
+WS: off
+
+WS: Done
+## 1487533192 2017/2/19 19:39:52 0 4183.75 100.51 >ID
+Idle: Begin
+Idle: Done
+## 1487533824 2017/2/19 19:50:24 0 4188.75 100.35 >TX
+TS: #0: +24 % 24 == 19 previousHour=0 hour=19 0
+TS: #1: +0 % 6 == 1 previousHour=0 hour=19 0
+TS: #2: +2 % 6 == 3 previousHour=0 hour=19 0
+TS: -1
+## 1487533825 2017/2/19 19:50:25 0 4188.75 100.35 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487534425 2017/2/19 20:0:25 0 4183.75 100.19 >WS
+WS: Check
+
+WS: Done
+## 1487534435 2017/2/19 20:0:35 0 4186.25 100.19 >ID
+Idle: Begin
+Idle: Done
+## 1487535067 2017/2/19 20:11:7 0 4186.25 100.19 >TX
+TS: #0: +24 % 24 == 20 previousHour=0 hour=20 0
+TS: #1: +0 % 6 == 2 previousHour=0 hour=20 0
+TS: #2: +2 % 6 == 4 previousHour=0 hour=20 0
+TS: -1
+## 1487535067 2017/2/19 20:11:7 0 4186.25 100.19 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487535668 2017/2/19 20:21:8 0 4182.50 100.03 >WS
+WS: Check
+
+WS: Done
+## 1487535678 2017/2/19 20:21:18 0 4183.75 100.03 >ID
+Idle: Begin
+Idle: Done
+## 1487536310 2017/2/19 20:31:50 0 4185.00 100.03 >TX
+TS: #0: +24 % 24 == 20 previousHour=0 hour=20 0
+TS: #1: +0 % 6 == 2 previousHour=0 hour=20 0
+TS: #2: +2 % 6 == 4 previousHour=0 hour=20 0
+TS: -1
+## 1487536310 2017/2/19 20:31:50 0 4185.00 100.03 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487536911 2017/2/19 20:41:51 0 4181.25 99.71 >WS
+WS: Check
+WS: >Ignoring
+WS: hup
+WS: on
+
+WS: Done
+## 1487536921 2017/2/19 20:42:1 1 4178.75 99.71 >ID
+Idle: Begin
+Idle: Done
+## 1487537551 2017/2/19 20:52:31 1 4181.25 99.71 >TX
+TS: #0: +24 % 24 == 20 previousHour=0 hour=20 0
+TS: #1: +0 % 6 == 2 previousHour=0 hour=20 0
+TS: #2: +2 % 6 == 4 previousHour=0 hour=20 0
+TS: -1
+## 1487537551 2017/2/19 20:52:31 1 4181.25 99.71 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487538151 2017/2/19 21:2:31 1 4176.25 99.40 >WS
+WS: Check
+
+WS: Done
+## 1487538161 2017/2/19 21:2:41 1 4178.75 99.40 >ID
+Idle: Begin
+Idle: Done
+## 1487538790 2017/2/19 21:13:10 1 4178.75 99.24 >TX
+TS: #0: +24 % 24 == 21 previousHour=0 hour=21 0
+TS: #1: +0 % 6 == 3 previousHour=0 hour=21 0
+TS: #2: +2 % 6 == 5 previousHour=0 hour=21 0
+TS: -1
+## 1487538790 2017/2/19 21:13:10 1 4178.75 99.24 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487539391 2017/2/19 21:23:11 1 4175.00 99.08 >WS
+WS: Check
+
+WS: Done
+## 1487539401 2017/2/19 21:23:21 1 4176.25 99.08 >ID
+Idle: Begin
+Idle: Done
+## 1487540030 2017/2/19 21:33:50 1 4176.25 98.93 >TX
+TS: #0: +24 % 24 == 21 previousHour=0 hour=21 0
+TS: #1: +0 % 6 == 3 previousHour=0 hour=21 0
+TS: #2: +2 % 6 == 5 previousHour=0 hour=21 0
+TS: -1
+## 1487540030 2017/2/19 21:33:50 1 4176.25 98.93 >AW
+AW: RR
+P:0
+Ponging!
+P:4
+Queuing
+Acking
+P:7
+Queuing
+Acking
+
+AW: Done
+AW: Exit
+## 1487540631 2017/2/19 21:43:51 1 4171.25 98.77 >WS
+WS: Check
+WS: >Reading
+WS: have reading
+1487540608.00,-1.00,0.00,0.00,0.00,0.00,359.00,0.00,0.00,19.00,27.60,0.00,0.00,100738.75,3.07,41.31,-72.93,83.50,7.00,190217.00,21430900.00,1677115.00
+WS: >Off
+
+&%Clock Adjusted before=1487540632
+%%^
+WS: off
+
+WS: Done
+## 1487540617 2017/2/19 21:43:37 0 4171.25 98.77 >ID
+Idle: Begin
+Idle: Done
+## 1487541248 2017/2/19 21:54:8 0 4176.25 98.77 >TX
+TS: #0: +24 % 24 == 21 previousHour=0 hour=21 0
+TS: #1: +0 % 6 == 3 previousHour=0 hour=21 0
+TS: #2: +2 % 6 == 5 previousHour=0 hour=21 0
+TS: -1
+## 1487541248 2017/2/19 21:54:8 0 4175.00 98.77 >AW
+AW: RR
+P:0
+Ponging!
+P:0
+Ponging!
+P:4
+Queuing
+Acking
+P:7
+Queuing
+Acking
+
+AW: Done
+AW: Exit
+## 1487541849 2017/2/19 22:4:9 0 4171.25 98.61 >WS
+WS: Check
+
+WS: Done
+## 1487541859 2017/2/19 22:4:19 0 4173.75 98.61 >ID
+Idle: Begin
+Idle: Done
+## 1487542491 2017/2/19 22:14:51 0 4173.75 98.61 >TX
+TS: #0: +24 % 24 == 22 previousHour=0 hour=22 0
+TS: #1: +0 % 6 == 4 previousHour=0 hour=22 0
+TS: #2: +2 % 6 == 0 previousHour=0 hour=22 1
+TS: 2
+TS: sendSensorTransmission: 12 weather
+End of queue
+End of queue
+Message: 1487540608,R4,WE,4173.75,98.61,98.77,27.60,19.00,100738.75,0.00,359.00,0.00,0.00,0.00
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<<   ˆR  @TÀbB    ‚„I @@F      AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=85
+Waiting for response READY
+
+<< AT+SBDWB=85
+READY
+[85 bytes]Checksum:4302
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: no network service
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:3
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a18f96b
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 32, 84, 2, 0, 0, 0
+
+OK
+SBDIX MO code: 32
+Waiting for SBDIX retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a18fd95
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 32, 84, 2, 0, 0, 0
+
+OK
+SBDIX MO code: 32
+Waiting for SBDIX retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+SB: send failed: 7
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=85
+Waiting for response READY
+
+<< AT+SBDWB=85
+READY
+[85 bytes]Checksum:4302
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+SB: send failed: 7
+Powering off RockBLOCK...!
+Done
+RockBlock: 0
+## 1487543115 2017/2/19 22:25:15 0 4172.50 98.45 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487543715 2017/2/19 22:35:15 0 4170.00 98.29 >WS
+WS: Check
+WS: >Ignoring
+WS: hup
+WS: on
+
+WS: Done
+## 1487543725 2017/2/19 22:35:25 1 4167.50 98.29 >ID
+Idle: Begin
+Idle: Done
+## 1487544355 2017/2/19 22:45:55 1 4171.25 98.29 >TX
+TS: #0: +24 % 24 == 22 previousHour=0 hour=22 0
+TS: #1: +0 % 6 == 4 previousHour=0 hour=22 0
+TS: #2: +2 % 6 == 0 previousHour=23 hour=22 0
+TS: -1
+## 1487544355 2017/2/19 22:45:55 1 4171.25 98.29 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487544956 2017/2/19 22:55:56 1 4166.25 97.98 >WS
+WS: Check
+
+WS: Done
+## 1487544966 2017/2/19 22:56:6 1 4167.50 97.98 >ID
+Idle: Begin
+Idle: Done
+Mandatory restart triggered.
+Message: 1487545596,R4,ST,4168.75,97.98,1,1,0,3,0,4,9,12,0,631.27,600000,600000,10000,60000,1800000,1800000,120000,24,24,0,6,2,6,213
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< ¨%UH @  AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:4
+
+OK
+Signal quality: 4
+internalSendReceive
+>> AT+SBDWB=123
+Waiting for response READY
+
+<< AT+SBDWB=123
+READY
+[123 bytes]Checksum:6125
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:5
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: no network service
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:5
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a197b77
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 18, 84, 2, 0, 0, 0
+
+OK
+SBDIX MO code: 18
+Waiting for SBDIX retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a197dcb
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 0, 84, 0, 0, 0, 0
+
+OK
+SBDIX MO code: 0
+SBDIX success!
+Powering off RockBLOCK...!
+Done
+RockBlock: 1
+SHA1: BUILD_COMMIT
+## 1487545695 2017/2/19 23:8:15 0 4165.00 97.18 >Begin
+ResetCause: Software
+Config: R4
+WS: off
+Preflight
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: hup
+WS: on
+WS: have reading
+0.00,-1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,20.90,26.60,0.00,0.00,100848.75,3.05,0.00,0.00,0.00,0.00,0.00,0.00,378.00
+WS: >CommunicationsOk
+WS: off
+preflight: Weather station good
+preflight: LoRa good
+Loop
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487546308 2017/2/19 23:18:28 0 4166.25 97.34 >WS
+WS: Check
+WS: hup
+WS: on
+
+&%%^
+
+WS: Done
+## 1487546318 2017/2/19 23:18:38 1 4166.25 97.34 >ID
+Idle: Begin
+Idle: Done
+## 1487546950 2017/2/19 23:29:10 1 4168.75 97.50 >TX
+TS: #0: +24 % 24 == 23 previousHour=0 hour=23 0
+TS: #1: +0 % 6 == 5 previousHour=0 hour=23 0
+TS: #2: +2 % 6 == 1 previousHour=0 hour=23 0
+TS: -1
+## 1487546950 2017/2/19 23:29:10 1 4168.75 97.50 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487547551 2017/2/19 23:39:11 1 4165.00 97.34 >WS
+WS: Check
+
+WS: Done
+## 1487547561 2017/2/19 23:39:21 1 4166.25 97.34 >ID
+Idle: Begin
+Idle: Done
+## 1487548193 2017/2/19 23:49:53 1 4167.50 97.50 >TX
+TS: #0: +24 % 24 == 23 previousHour=0 hour=23 0
+TS: #1: +0 % 6 == 5 previousHour=0 hour=23 0
+TS: #2: +2 % 6 == 1 previousHour=0 hour=23 0
+TS: -1
+## 1487548193 2017/2/19 23:49:53 1 4167.50 97.50 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487548794 2017/2/19 23:59:54 1 4163.75 97.34 >WS
+WS: Check
+WS: >Reading
+WS: have reading
+1487548800.00,-1.00,0.00,0.00,0.00,0.00,359.00,0.00,0.00,20.70,26.30,0.00,0.00,100960.50,3.05,41.31,-72.93,60.70,4.00,190217.00,23593600.00,937525.00
+WS: >Off
+
+&%Clock Adjusted before=1487548796
+%%^
+WS: off
+
+WS: Done
+## 1487548808 2017/2/20 0:0:8 0 4162.50 97.34 >ID
+Idle: Begin
+Idle: Done
+## 1487549441 2017/2/20 0:10:41 0 4166.25 97.34 >TX
+TS: #0: +24 % 24 == 0 previousHour=0 hour=0 1
+TS: #1: +0 % 6 == 0 previousHour=0 hour=0 1
+TS: #2: +2 % 6 == 2 previousHour=0 hour=0 0
+TS: 0
+Message: 1487548800,R4,LO,4166.25,97.34,41.305446624756,-72.926063537598,60.70,32
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=72
+Waiting for response READY
+
+<< AT+SBDWB=72
+READY
+[72 bytes]Checksum:3747
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:3
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a1a2b75
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 0, 85, 0, 0, 0, 0
+
+OK
+SBDIX MO code: 0
+SBDIX success!
+Powering off RockBLOCK...!
+Done
+RockBlock: 1
+## 1487549689 2017/2/20 0:14:49 0 4163.75 97.34 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487550289 2017/2/20 0:24:49 0 4161.25 97.18 >WS
+WS: Check
+
+WS: Done
+## 1487550299 2017/2/20 0:24:59 0 4163.75 97.18 >ID
+Idle: Begin
+Idle: Done
+## 1487550932 2017/2/20 0:35:32 0 4163.75 97.18 >TX
+TS: #0: +24 % 24 == 0 previousHour=1 hour=0 0
+TS: #1: +0 % 6 == 0 previousHour=0 hour=0 1
+TS: #2: +2 % 6 == 2 previousHour=0 hour=0 0
+TS: 1
+TS: sendSensorTransmission: 10 atlas sonar
+End of queue
+End of queue
+Message: 1487540526,R4,AT,4162.50,97.18,4.35,0.00,-693.50,14.00,0.00,0.00,0.00,1.00, nan,0.00, nan,-1000.00
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<<  AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+Signal quality: 2
+internalSendReceive
+>> AT+SBDWB=98
+Waiting for response READY
+
+<< AT+SBDWB=98
+READY
+[98 bytes]Checksum:5142
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:3
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a1a6299
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 0, 86, 0, 0, 0, 0
+
+OK
+SBDIX MO code: 0
+SBDIX success!
+Powering off RockBLOCK...!
+Done
+RockBlock: 1
+Message: 1487541396,R4,SO,4163.75,97.18,4.35,0.00,1.00,2.00,3.00,4.00
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=60
+Waiting for response READY
+
+<< AT+SBDWB=60
+READY
+[60 bytes]Checksum:3049
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a1a6a59
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 32, 87, 2, 0, 0, 0
+
+OK
+SBDIX MO code: 32
+Waiting for SBDIX retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a1a6c95
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 32, 87, 2, 0, 0, 0
+
+OK
+SBDIX MO code: 32
+Waiting for SBDIX retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:3
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a1a7028
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 32, 87, 2, 0, 0, 0
+
+OK
+SBDIX MO code: 32
+Waiting for SBDIX retry...
+SBDIX timeout!
+SB: send failed: 7
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+Signal quality: 2
+internalSendReceive
+>> AT+SBDWB=60
+Waiting for response READY
+
+<< AT+SBDWB=60
+READY
+[60 bytes]Checksum:3049
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a1a783e
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 32, 87, 2, 0, 0, 0
+
+OK
+SBDIX MO code: 32
+Waiting for SBDIX retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+SB: send failed: 7
+Powering off RockBLOCK...!
+Done
+RockBlock: 0
+## 1487551630 2017/2/20 0:47:10 0 4162.50 97.18 >AW
+AW: RR
+P:0
+Ponging!
+P:4
+Queuing
+Acking
+P:7
+Queuing
+Acking
+
+AW: Done
+AW: Exit
+## 1487552230 2017/2/20 0:57:10 0 4158.75 97.03 >WS
+WS: Check
+WS: >Ignoring
+WS: hup
+WS: on
+
+WS: Done
+## 1487552240 2017/2/20 0:57:20 1 4157.50 97.03 >ID
+Idle: Begin
+Idle: Done
+## 1487552871 2017/2/20 1:7:51 1 4161.25 96.87 >TX
+TS: #0: +24 % 24 == 1 previousHour=1 hour=1 0
+TS: #1: +0 % 6 == 1 previousHour=1 hour=1 0
+TS: #2: +2 % 6 == 3 previousHour=0 hour=1 0
+TS: -1
+## 1487552871 2017/2/20 1:7:51 1 4161.25 96.87 >AW
+AW: RR
+P:0
+Ponging!
+P:4
+Queuing
+Acking
+P:4
+Queuing
+Acking
+P:7
+Queuing
+Acking
+
+AW: Done
+AW: Exit
+## 1487553471 2017/2/20 1:17:51 1 4156.25 96.71 >WS
+WS: Check
+
+WS: Done
+## 1487553481 2017/2/20 1:18:1 1 4157.50 96.71 >ID
+Idle: Begin
+Idle: Done
+## 1487554111 2017/2/20 1:28:31 1 4158.75 96.71 >TX
+TS: #0: +24 % 24 == 1 previousHour=0 hour=1 0
+TS: #1: +0 % 6 == 1 previousHour=0 hour=1 0
+TS: #2: +2 % 6 == 3 previousHour=0 hour=1 0
+TS: -1
+## 1487554111 2017/2/20 1:28:31 1 4158.75 96.71 >AW
+AW: RR
+P:0
+Ponging!
+P:4
+Queuing
+Acking
+P:7
+Queuing
+Acking
+
+AW: Done
+AW: Exit
+## 1487554712 2017/2/20 1:38:32 1 4153.75 96.39 >WS
+WS: Check
+
+WS: Done
+## 1487554722 2017/2/20 1:38:42 1 4155.00 96.39 >ID
+Idle: Begin
+Idle: Done
+## 1487555352 2017/2/20 1:49:12 1 4156.25 96.39 >TX
+TS: #0: +24 % 24 == 1 previousHour=0 hour=1 0
+TS: #1: +0 % 6 == 1 previousHour=0 hour=1 0
+TS: #2: +2 % 6 == 3 previousHour=0 hour=1 0
+TS: -1
+## 1487555352 2017/2/20 1:49:12 1 4156.25 96.39 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487555952 2017/2/20 1:59:12 1 4151.25 96.08 >WS
+WS: Check
+WS: >Reading
+WS: have reading
+1487555968.00,-1.00,0.00,0.00,0.00,0.00,359.00,0.00,0.00,21.60,26.70,0.00,0.00,101147.75,3.04,41.31,-72.93,114.80,9.00,200217.00,1585000.00,1443713.00
+WS: >Off
+
+&%Clock Adjusted before=1487555954
+%%^
+WS: off
+
+WS: Done
+## 1487555977 2017/2/20 1:59:37 0 4151.25 96.08 >ID
+Idle: Begin
+Idle: Done
+## 1487556609 2017/2/20 2:10:9 0 4156.25 96.08 >TX
+TS: #0: +24 % 24 == 2 previousHour=0 hour=2 0
+TS: #1: +0 % 6 == 2 previousHour=0 hour=2 0
+TS: #2: +2 % 6 == 4 previousHour=0 hour=2 0
+TS: -1
+## 1487556609 2017/2/20 2:10:9 0 4156.25 96.08 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487557210 2017/2/20 2:20:10 0 4151.25 95.92 >WS
+WS: Check
+
+WS: Done
+## 1487557220 2017/2/20 2:20:20 0 4152.50 95.92 >ID
+Idle: Begin
+Idle: Done
+## 1487557853 2017/2/20 2:30:53 0 4153.75 95.92 >TX
+TS: #0: +24 % 24 == 2 previousHour=0 hour=2 0
+TS: #1: +0 % 6 == 2 previousHour=0 hour=2 0
+TS: #2: +2 % 6 == 4 previousHour=0 hour=2 0
+TS: -1
+## 1487557853 2017/2/20 2:30:53 0 4153.75 95.92 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487558453 2017/2/20 2:40:53 0 4150.00 95.76 >WS
+WS: Check
+
+WS: Done
+## 1487558463 2017/2/20 2:41:3 0 4151.25 95.76 >ID
+Idle: Begin
+Idle: Done
+## 1487559097 2017/2/20 2:51:37 0 4152.50 95.76 >TX
+TS: #0: +24 % 24 == 2 previousHour=0 hour=2 0
+TS: #1: +0 % 6 == 2 previousHour=0 hour=2 0
+TS: #2: +2 % 6 == 4 previousHour=0 hour=2 0
+TS: -1
+## 1487559097 2017/2/20 2:51:37 0 4152.50 95.76 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487559697 2017/2/20 3:1:37 0 4148.75 95.60 >WS
+WS: Check
+WS: >Ignoring
+WS: hup
+WS: on
+
+WS: Done
+## 1487559707 2017/2/20 3:1:47 1 4146.25 95.60 >ID
+Idle: Begin
+Idle: Done
+## 1487560338 2017/2/20 3:12:18 1 4150.00 95.60 >TX
+TS: #0: +24 % 24 == 3 previousHour=0 hour=3 0
+TS: #1: +0 % 6 == 3 previousHour=0 hour=3 0
+TS: #2: +2 % 6 == 5 previousHour=0 hour=3 0
+TS: -1
+## 1487560338 2017/2/20 3:12:18 1 4150.00 95.60 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487560939 2017/2/20 3:22:19 1 4146.25 95.29 >WS
+WS: Check
+
+WS: Done
+## 1487560949 2017/2/20 3:22:29 1 4146.25 95.29 >ID
+Idle: Begin
+Idle: Done
+## 1487561580 2017/2/20 3:33:0 1 4146.25 95.29 >TX
+TS: #0: +24 % 24 == 3 previousHour=0 hour=3 0
+TS: #1: +0 % 6 == 3 previousHour=0 hour=3 0
+TS: #2: +2 % 6 == 5 previousHour=0 hour=3 0
+TS: -1
+## 1487561580 2017/2/20 3:33:0 1 4146.25 95.29 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487562180 2017/2/20 3:43:0 1 4143.75 95.13 >WS
+WS: Check
+
+WS: Done
+## 1487562191 2017/2/20 3:43:11 1 4143.75 95.13 >ID
+Idle: Begin
+Idle: Done
+## 1487562822 2017/2/20 3:53:42 1 4146.25 94.97 >TX
+TS: #0: +24 % 24 == 3 previousHour=0 hour=3 0
+TS: #1: +0 % 6 == 3 previousHour=0 hour=3 0
+TS: #2: +2 % 6 == 5 previousHour=0 hour=3 0
+TS: -1
+## 1487562822 2017/2/20 3:53:42 1 4146.25 94.97 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487563422 2017/2/20 4:3:42 1 4141.25 94.81 >WS
+WS: Check
+WS: >Reading
+WS: have reading
+1487563392.00,-1.00,0.00,0.00,0.00,0.00,359.00,0.00,0.00,20.80,25.60,0.00,0.00,101250.00,3.06,41.31,-72.93,4.80,7.00,200217.00,4030500.00,1555256.00
+WS: >Off
+
+&%Clock Adjusted before=1487563424
+%%^
+WS: off
+
+WS: Done
+## 1487563400 2017/2/20 4:3:20 0 4141.25 94.81 >ID
+Idle: Begin
+Idle: Done
+## 1487564034 2017/2/20 4:13:54 0 4145.00 94.81 >TX
+TS: #0: +24 % 24 == 4 previousHour=0 hour=4 0
+TS: #1: +0 % 6 == 4 previousHour=0 hour=4 0
+TS: #2: +2 % 6 == 0 previousHour=0 hour=4 1
+TS: 2
+TS: sendSensorTransmission: 11 weather
+End of queue
+End of queue
+Message: 1487563392,R4,WE,4143.75,94.81,94.81,25.60,20.80,101250.00,0.00,359.00,0.00,0.00,0.00
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<<  	        *‚ € T         AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=85
+Waiting for response READY
+
+<< AT+SBDWB=85
+READY
+[85 bytes]Checksum:4269
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:3
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a1c9dc2
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 0, 87, 0, 0, 0, 0
+
+OK
+SBDIX MO code: 0
+SBDIX success!
+Powering off RockBLOCK...!
+Done
+RockBlock: 1
+## 1487564098 2017/2/20 4:14:58 0 4143.75 94.81 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487564699 2017/2/20 4:24:59 0 4141.25 94.65 >WS
+WS: Check
+
+WS: Done
+## 1487564709 2017/2/20 4:25:9 0 4142.50 94.65 >ID
+Idle: Begin
+Idle: Done
+## 1487565343 2017/2/20 4:35:43 0 4143.75 94.65 >TX
+TS: #0: +24 % 24 == 4 previousHour=0 hour=4 0
+TS: #1: +0 % 6 == 4 previousHour=0 hour=4 0
+TS: #2: +2 % 6 == 0 previousHour=5 hour=4 0
+TS: -1
+## 1487565343 2017/2/20 4:35:43 0 4143.75 94.65 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487565944 2017/2/20 4:45:44 0 4140.00 94.50 >WS
+WS: Check
+
+WS: Done
+## 1487565954 2017/2/20 4:45:54 0 4141.25 94.50 >ID
+Idle: Begin
+Idle: Done
+## 1487566589 2017/2/20 4:56:29 0 4141.25 94.50 >TX
+TS: #0: +24 % 24 == 4 previousHour=0 hour=4 0
+TS: #1: +0 % 6 == 4 previousHour=0 hour=4 0
+TS: #2: +2 % 6 == 0 previousHour=5 hour=4 0
+TS: -1
+## 1487566589 2017/2/20 4:56:29 0 4141.25 94.50 >AW
+AW: RR
+P:0
+Ponging!
+P:4
+Queuing
+Acking
+P:4
+Queuing
+Acking
+P:7
+Queuing
+Acking
+P:7
+Queuing
+Acking
+P:7
+Queuing
+Acking
+P:0
+Ponging!
+P:4
+Queuing
+Acking
+P:7
+Queuing
+Acking
+P:2
+Ack
+
+AW: Done
+AW: Exit
+## 1487567189 2017/2/20 5:6:29 0 4138.75 94.34 >WS
+WS: Check
+WS: >Ignoring
+WS: hup
+WS: on
+
+WS: Done
+## 1487567199 2017/2/20 5:6:39 1 4136.25 94.34 >ID
+Idle: Begin
+Idle: Done
+Mandatory restart triggered.
+Message: 1487567832,R4,ST,4138.75,94.34,1,1,0,1,0,4,7,7,0,251.87,600000,600000,10000,60000,1800000,1800000,120000,24,24,0,6,2,6,198
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<<         AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=122
+Waiting for response READY
+
+<< AT+SBDWB=122
+READY
+[122 bytes]Checksum:6074
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+SB: send failed: 7
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=122
+Waiting for response READY
+
+<< AT+SBDWB=122
+READY
+[122 bytes]Checksum:6074
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:3
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a1d5407
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 32, 88, 2, 0, 0, 0
+
+OK
+SBDIX MO code: 32
+Waiting for SBDIX retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+SB: send failed: 7
+Powering off RockBLOCK...!
+Done
+RockBlock: 0
+Message: 1487568463,R4,ST,4140.00,94.18,1,1,0,2,0,4,7,7,0,327.71,600000,600000,10000,60000,1800000,1800000,120000,24,24,0,6,2,6,209
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=122
+Waiting for response READY
+
+<< AT+SBDWB=122
+READY
+[122 bytes]Checksum:6049
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+SB: send failed: 7
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=122
+Waiting for response READY
+
+<< AT+SBDWB=122
+READY
+[122 bytes]Checksum:6049
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+SB: send failed: 7
+Powering off RockBLOCK...!
+Done
+RockBlock: 0
+Message: 1487569074,R4,ST,4138.75,94.18,1,1,0,3,0,4,7,7,0,374.90,600000,600000,10000,60000,1800000,1800000,120000,24,24,0,6,2,6,219
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=122
+Waiting for response READY
+
+<< AT+SBDWB=122
+READY
+[122 bytes]Checksum:6072
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+SB: send failed: 7
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=122
+Waiting for response READY
+
+<< AT+SBDWB=122
+READY
+[122 bytes]Checksum:6072
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+SB: send failed: 7
+Powering off RockBLOCK...!
+Done
+RockBlock: 0
+SHA1: BUILD_COMMIT
+## 1487569704 2017/2/20 5:48:24 0 4135.00 92.91 >Begin
+ResetCause: Software
+Config: R4
+WS: off
+Preflight
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: hup
+WS: on
+WS: have reading
+0.00,-1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,23.10,23.90,0.00,0.00,101344.00,3.05,0.00,0.00,0.00,0.00,0.00,0.00,369.00
+WS: >CommunicationsOk
+WS: off
+preflight: Weather station good
+preflight: LoRa good
+Loop
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487570317 2017/2/20 5:58:37 0 4136.25 93.07 >WS
+WS: Check
+WS: hup
+WS: on
+
+&%%^
+
+WS: Done
+## 1487570327 2017/2/20 5:58:47 1 4137.50 93.07 >ID
+Idle: Begin
+Idle: Done
+## 1487570961 2017/2/20 6:9:21 1 4138.75 93.39 >TX
+TS: #0: +24 % 24 == 6 previousHour=0 hour=6 0
+TS: #1: +0 % 6 == 0 previousHour=0 hour=6 1
+TS: #2: +2 % 6 == 2 previousHour=0 hour=6 0
+TS: 1
+TS: sendSensorTransmission: 15 atlas sonar
+End of queue
+End of queue
+Message: 1487566638,R4,AT,4138.75,93.39,4.34,0.00,-692.70,14.00,0.00,0.00,0.00,1.00, nan,0.00, nan,-1000.00
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=98
+Waiting for response READY
+
+<< AT+SBDWB=98
+READY
+[98 bytes]Checksum:5163
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+SB: send failed: 7
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=98
+Waiting for response READY
+
+<< AT+SBDWB=98
+READY
+[98 bytes]Checksum:5163
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a1dd898
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 0, 88, 0, 0, 0, 0
+
+OK
+SBDIX MO code: 0
+SBDIX success!
+Powering off RockBLOCK...!
+Done
+RockBlock: 1
+Message: 1487566636,R4,SO,4137.50,93.39,4.36,0.00,1.00,2.00,3.00,4.00
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:4
+
+OK
+Signal quality: 4
+internalSendReceive
+>> AT+SBDWB=60
+Waiting for response READY
+
+<< AT+SBDWB=60
+READY
+[60 bytes]Checksum:3047
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:5
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a1dd987
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 0, 89, 0, 0, 0, 0
+
+OK
+SBDIX MO code: 0
+SBDIX success!
+Powering off RockBLOCK...!
+Done
+RockBlock: 1
+## 1487571371 2017/2/20 6:16:11 1 4137.50 93.39 >AW
+AW: RR
+P:0
+Ponging!
+P:4
+Queuing
+Acking
+P:4
+Queuing
+Acking
+P:7
+Queuing
+Acking
+
+AW: Done
+AW: Exit
+## 1487571972 2017/2/20 6:26:12 1 4132.50 93.39 >WS
+WS: Check
+
+WS: Done
+## 1487571982 2017/2/20 6:26:22 1 4133.75 93.39 >ID
+Idle: Begin
+Idle: Done
+## 1487572614 2017/2/20 6:36:54 1 4135.00 93.39 >TX
+TS: #0: +24 % 24 == 6 previousHour=0 hour=6 0
+TS: #1: +0 % 6 == 0 previousHour=7 hour=6 0
+TS: #2: +2 % 6 == 2 previousHour=0 hour=6 0
+TS: -1
+## 1487572614 2017/2/20 6:36:54 1 4135.00 93.39 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487573215 2017/2/20 6:46:55 1 4131.25 93.39 >WS
+WS: Check
+WS: >Reading
+WS: have reading
+1487573248.00,-1.00,0.00,0.00,0.00,0.00,359.00,0.00,0.00,22.70,24.00,0.00,0.00,101359.00,3.03,41.31,-72.93,18.60,6.00,200217.00,6464900.00,925784.00
+WS: >Off
+
+&%Clock Adjusted before=1487573217
+%%^
+WS: off
+
+WS: Done
+## 1487573256 2017/2/20 6:47:36 0 4131.25 93.39 >ID
+Idle: Begin
+Idle: Done
+## 1487573891 2017/2/20 6:58:11 0 4133.75 93.39 >TX
+TS: #0: +24 % 24 == 6 previousHour=0 hour=6 0
+TS: #1: +0 % 6 == 0 previousHour=7 hour=6 0
+TS: #2: +2 % 6 == 2 previousHour=0 hour=6 0
+TS: -1
+## 1487573891 2017/2/20 6:58:11 0 4133.75 93.39 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487574492 2017/2/20 7:8:12 0 4131.25 93.23 >WS
+WS: Check
+
+WS: Done
+## 1487574502 2017/2/20 7:8:22 0 4132.50 93.23 >ID
+Idle: Begin
+Idle: Done
+## 1487575137 2017/2/20 7:18:57 0 4132.50 93.23 >TX
+TS: #0: +24 % 24 == 7 previousHour=0 hour=7 0
+TS: #1: +0 % 6 == 1 previousHour=7 hour=7 0
+TS: #2: +2 % 6 == 3 previousHour=0 hour=7 0
+TS: -1
+## 1487575137 2017/2/20 7:18:57 0 4132.50 93.23 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487575738 2017/2/20 7:28:58 0 4130.00 93.23 >WS
+WS: Check
+
+WS: Done
+## 1487575748 2017/2/20 7:29:8 0 4131.25 93.23 >ID
+Idle: Begin
+Idle: Done
+## 1487576383 2017/2/20 7:39:43 0 4131.25 93.23 >TX
+TS: #0: +24 % 24 == 7 previousHour=0 hour=7 0
+TS: #1: +0 % 6 == 1 previousHour=0 hour=7 0
+TS: #2: +2 % 6 == 3 previousHour=0 hour=7 0
+TS: -1
+## 1487576383 2017/2/20 7:39:43 0 4131.25 93.23 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487576984 2017/2/20 7:49:44 0 4128.75 93.07 >WS
+WS: Check
+WS: >Ignoring
+WS: hup
+WS: on
+
+WS: Done
+## 1487576994 2017/2/20 7:49:54 1 4126.25 93.07 >ID
+Idle: Begin
+Idle: Done
+## 1487577619 2017/2/20 8:0:19 1 4130.00 92.91 >TX
+TS: #0: +24 % 24 == 8 previousHour=0 hour=8 0
+TS: #1: +0 % 6 == 2 previousHour=0 hour=8 0
+TS: #2: +2 % 6 == 4 previousHour=0 hour=8 0
+TS: -1
+## 1487577619 2017/2/20 8:0:19 1 4130.00 92.91 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487578220 2017/2/20 8:10:20 1 4126.25 92.75 >WS
+WS: Check
+
+WS: Done
+## 1487578230 2017/2/20 8:10:30 1 4126.25 92.75 >ID
+Idle: Begin
+Idle: Done
+## 1487578863 2017/2/20 8:21:3 1 4128.75 92.75 >TX
+TS: #0: +24 % 24 == 8 previousHour=0 hour=8 0
+TS: #1: +0 % 6 == 2 previousHour=0 hour=8 0
+TS: #2: +2 % 6 == 4 previousHour=0 hour=8 0
+TS: -1
+## 1487578863 2017/2/20 8:21:3 1 4128.75 92.75 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487579463 2017/2/20 8:31:3 1 4123.75 92.60 >WS
+WS: Check
+
+WS: Done
+## 1487579473 2017/2/20 8:31:13 1 4125.00 92.60 >ID
+Idle: Begin
+Idle: Done
+## 1487580107 2017/2/20 8:41:47 1 4126.25 92.44 >TX
+TS: #0: +24 % 24 == 8 previousHour=0 hour=8 0
+TS: #1: +0 % 6 == 2 previousHour=0 hour=8 0
+TS: #2: +2 % 6 == 4 previousHour=0 hour=8 0
+TS: -1
+## 1487580107 2017/2/20 8:41:47 1 4126.25 92.44 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487580707 2017/2/20 8:51:47 1 4121.25 92.28 >WS
+WS: Check
+WS: >Reading
+WS: have reading
+1487580672.00,-1.00,0.00,0.00,0.00,0.00,359.00,0.00,0.00,23.20,23.20,0.00,0.00,101463.00,3.04,41.31,-72.93,95.90,8.00,200217.00,8511000.00,1549751.00
+WS: >Off
+
+&%Clock Adjusted before=1487580709
+%%^
+WS: off
+
+WS: Done
+## 1487580680 2017/2/20 8:51:20 0 4121.25 92.28 >ID
+Idle: Begin
+Idle: Done
+## 1487581316 2017/2/20 9:1:56 0 4125.00 92.28 >TX
+TS: #0: +24 % 24 == 9 previousHour=0 hour=9 0
+TS: #1: +0 % 6 == 3 previousHour=0 hour=9 0
+TS: #2: +2 % 6 == 5 previousHour=0 hour=9 0
+TS: -1
+## 1487581316 2017/2/20 9:1:56 0 4125.00 92.28 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487581917 2017/2/20 9:11:57 0 4121.25 92.12 >WS
+WS: Check
+
+WS: Done
+## 1487581927 2017/2/20 9:12:7 0 4123.75 92.12 >ID
+Idle: Begin
+Idle: Done
+## 1487582563 2017/2/20 9:22:43 0 4123.75 92.12 >TX
+TS: #0: +24 % 24 == 9 previousHour=0 hour=9 0
+TS: #1: +0 % 6 == 3 previousHour=0 hour=9 0
+TS: #2: +2 % 6 == 5 previousHour=0 hour=9 0
+TS: -1
+## 1487582563 2017/2/20 9:22:43 0 4123.75 92.12 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487583163 2017/2/20 9:32:43 0 4121.25 91.96 >WS
+WS: Check
+
+WS: Done
+## 1487583173 2017/2/20 9:32:53 0 4122.50 91.96 >ID
+Idle: Begin
+Idle: Done
+## 1487583810 2017/2/20 9:43:30 0 4123.75 91.96 >TX
+TS: #0: +24 % 24 == 9 previousHour=0 hour=9 0
+TS: #1: +0 % 6 == 3 previousHour=0 hour=9 0
+TS: #2: +2 % 6 == 5 previousHour=0 hour=9 0
+TS: -1
+## 1487583810 2017/2/20 9:43:30 0 4123.75 91.96 >AW
+AW: RR
+P:0
+Ponging!
+P:4
+Queuing
+Acking
+P:7
+Queuing
+Acking
+P:7
+Queuing
+Acking
+
+AW: Done
+AW: Exit
+## 1487584410 2017/2/20 9:53:30 0 4151.25 92.91 >WS
+WS: Check
+WS: >Ignoring
+WS: hup
+WS: on
+
+WS: Done
+## 1487584420 2017/2/20 9:53:40 1 4148.75 92.91 >ID
+Idle: Begin
+Idle: Done
+## 1487585054 2017/2/20 10:4:14 1 4156.25 93.86 >TX
+TS: #0: +24 % 24 == 10 previousHour=0 hour=10 0
+TS: #1: +0 % 6 == 4 previousHour=0 hour=10 0
+TS: #2: +2 % 6 == 0 previousHour=0 hour=10 1
+TS: 2
+TS: sendSensorTransmission: 9 weather
+End of queue
+End of queue
+Message: 1487580672,R4,WE,4156.25,93.86,92.28,23.20,23.20,101463.00,0.00,359.00,0.00,0.00,0.00
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< R        øüü à€ à 	  Š @      AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=85
+Waiting for response READY
+
+<< AT+SBDWB=85
+READY
+[85 bytes]Checksum:4268
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+SB: send failed: 7
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=85
+Waiting for response READY
+
+<< AT+SBDWB=85
+READY
+[85 bytes]Checksum:4268
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: no network service
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:4
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a204453
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 0, 90, 0, 0, 0, 0
+
+OK
+SBDIX MO code: 0
+SBDIX success!
+Powering off RockBLOCK...!
+Done
+RockBlock: 1
+## 1487585626 2017/2/20 10:13:46 1 4160.00 94.65 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487586227 2017/2/20 10:23:47 1 4163.75 95.29 >WS
+WS: Check
+
+WS: Done
+## 1487586237 2017/2/20 10:23:57 1 4163.75 95.29 >ID
+Idle: Begin
+Idle: Done
+## 1487586870 2017/2/20 10:34:30 1 4168.75 96.08 >TX
+TS: #0: +24 % 24 == 10 previousHour=0 hour=10 0
+TS: #1: +0 % 6 == 4 previousHour=0 hour=10 0
+TS: #2: +2 % 6 == 0 previousHour=11 hour=10 0
+TS: -1
+## 1487586870 2017/2/20 10:34:30 1 4168.75 96.08 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487587471 2017/2/20 10:44:31 1 4171.25 96.55 >WS
+WS: Check
+WS: >Reading
+WS: have reading
+1487587456.00,-1.00,0.00,0.00,0.00,0.00,359.00,0.00,0.00,23.20,23.00,0.00,0.00,101650.00,3.03,41.31,-72.93,42.00,7.00,200217.00,10443000.00,1285622.00
+WS: >Off
+
+&%Clock Adjusted before=1487587473
+%%^
+WS: off
+
+WS: Done
+## 1487587464 2017/2/20 10:44:24 0 4171.25 96.55 >ID
+Idle: Begin
+Idle: Done
+## 1487588099 2017/2/20 10:54:59 0 4177.50 97.18 >TX
+TS: #0: +24 % 24 == 10 previousHour=0 hour=10 0
+TS: #1: +0 % 6 == 4 previousHour=0 hour=10 0
+TS: #2: +2 % 6 == 0 previousHour=11 hour=10 0
+TS: -1
+## 1487588099 2017/2/20 10:54:59 0 4177.50 97.18 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487588700 2017/2/20 11:5:0 0 4178.75 97.82 >WS
+WS: Check
+
+WS: Done
+## 1487588710 2017/2/20 11:5:10 0 4180.00 97.82 >ID
+Idle: Begin
+Idle: Done
+## 1487589346 2017/2/20 11:15:46 0 4183.75 98.29 >TX
+TS: #0: +24 % 24 == 11 previousHour=0 hour=11 0
+TS: #1: +0 % 6 == 5 previousHour=0 hour=11 0
+TS: #2: +2 % 6 == 1 previousHour=11 hour=11 0
+TS: -1
+## 1487589346 2017/2/20 11:15:46 0 4183.75 98.29 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487589946 2017/2/20 11:25:46 0 4185.00 98.77 >WS
+WS: Check
+
+WS: Done
+## 1487589956 2017/2/20 11:25:56 0 4186.25 98.77 >ID
+Idle: Begin
+Idle: Done
+## 1487590593 2017/2/20 11:36:33 0 4188.75 99.24 >TX
+TS: #0: +24 % 24 == 11 previousHour=0 hour=11 0
+TS: #1: +0 % 6 == 5 previousHour=0 hour=11 0
+TS: #2: +2 % 6 == 1 previousHour=0 hour=11 0
+TS: -1
+## 1487590593 2017/2/20 11:36:33 0 4188.75 99.24 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487591193 2017/2/20 11:46:33 0 4190.00 99.56 >WS
+WS: Check
+WS: >Ignoring
+WS: hup
+WS: on
+
+WS: Done
+## 1487591203 2017/2/20 11:46:43 1 4187.50 99.56 >ID
+Idle: Begin
+Idle: Done
+Mandatory restart triggered.
+Message: 1487591837,R4,ST,4191.25,99.88,1,1,0,0,0,4,3,3,0,327.12,600000,600000,10000,60000,1800000,1800000,120000,24,24,0,6,2,6,198
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<<            AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Signal quality: 1
+internalSendReceive
+>> AT+SBDWB=122
+Waiting for response READY
+
+<< AT+SBDWB=122
+READY
+[122 bytes]Checksum:6067
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+SB: send failed: 7
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=122
+Waiting for response READY
+
+<< AT+SBDWB=122
+READY
+[122 bytes]Checksum:6067
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: no network service
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+SB: send failed: 7
+Powering off RockBLOCK...!
+Done
+RockBlock: 0
+Message: 1487592460,R4,ST,4182.50,99.71,1,1,0,1,0,4,3,3,0,401.06,600000,600000,10000,60000,1800000,1800000,120000,24,24,0,6,2,6,208
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=122
+Waiting for response READY
+
+<< AT+SBDWB=122
+READY
+[122 bytes]Checksum:6039
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a216fcf
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 0, 91, 0, 0, 0, 0
+
+OK
+SBDIX MO code: 0
+SBDIX success!
+Powering off RockBLOCK...!
+Done
+RockBlock: 1
+SHA1: BUILD_COMMIT
+## 1487592528 2017/2/20 12:8:48 0 4178.75 99.08 >Begin
+ResetCause: Software
+Config: R4
+WS: off
+Preflight
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: hup
+WS: on
+WS: have reading
+0.00,-1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,23.80,22.20,0.00,0.00,101832.75,3.05,0.00,0.00,0.00,0.00,0.00,0.00,367.00
+WS: >CommunicationsOk
+WS: off
+preflight: Weather station good
+preflight: LoRa good
+Loop
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487593141 2017/2/20 12:19:1 0 4178.75 99.08 >WS
+WS: Check
+WS: hup
+WS: on
+
+&%%^
+
+WS: Done
+## 1487593151 2017/2/20 12:19:11 1 4181.25 99.08 >ID
+Idle: Begin
+Idle: Done
+## 1487593787 2017/2/20 12:29:47 1 4182.50 99.24 >TX
+TS: #0: +24 % 24 == 12 previousHour=0 hour=12 0
+TS: #1: +0 % 6 == 0 previousHour=0 hour=12 1
+TS: #2: +2 % 6 == 2 previousHour=0 hour=12 0
+TS: 1
+TS: sendSensorTransmission: 8 atlas sonar
+End of queue
+End of queue
+Message: 1487583034,R4,AT,4181.25,99.24,4.35,0.00,-681.50,14.00,0.00,0.00,0.00,1.00, nan,0.00, nan,-1000.00
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+Signal quality: 2
+internalSendReceive
+>> AT+SBDWB=98
+Waiting for response READY
+
+<< AT+SBDWB=98
+READY
+[98 bytes]Checksum:5142
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a21a81b
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 0, 92, 0, 0, 0, 0
+
+OK
+SBDIX MO code: 0
+SBDIX success!
+Powering off RockBLOCK...!
+Done
+RockBlock: 1
+Message: 1487583890,R4,SO,4181.25,99.24,4.35,0.00,1.00,2.00,3.00,4.00
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=60
+Waiting for response READY
+
+<< AT+SBDWB=60
+READY
+[60 bytes]Checksum:3048
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a21b12e
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 0, 93, 0, 0, 0, 0
+
+OK
+SBDIX MO code: 0
+SBDIX success!
+Powering off RockBLOCK...!
+Done
+RockBlock: 1
+## 1487594016 2017/2/20 12:33:36 1 4181.25 99.24 >AW
+AW: RR
+P:0
+Ponging!
+P:4
+Queuing
+Acking
+P:7
+Queuing
+Acking
+
+AW: Done
+AW: Exit
+## 1487594617 2017/2/20 12:43:37 1 4175.00 99.08 >WS
+WS: Check
+
+WS: Done
+## 1487594627 2017/2/20 12:43:47 1 4176.25 99.08 >ID
+Idle: Begin
+Idle: Done
+## 1487595260 2017/2/20 12:54:20 1 4176.25 98.93 >TX
+TS: #0: +24 % 24 == 12 previousHour=0 hour=12 0
+TS: #1: +0 % 6 == 0 previousHour=13 hour=12 0
+TS: #2: +2 % 6 == 2 previousHour=0 hour=12 0
+TS: -1
+## 1487595261 2017/2/20 12:54:21 1 4176.25 98.93 >AW
+AW: RR
+P:0
+Ponging!
+P:2
+Ack
+P:7
+Queuing
+Acking
+
+AW: Done
+AW: Exit
+## 1487595861 2017/2/20 13:4:21 1 4171.25 98.77 >WS
+WS: Check
+WS: >Reading
+WS: have reading
+1487595904.00,-1.00,0.00,0.00,0.00,0.00,359.00,0.00,0.00,23.00,22.70,0.00,0.00,101904.00,3.07,41.31,-72.93,54.20,7.00,200217.00,13043600.00,1034249.00
+WS: >Off
+
+&%Clock Adjusted before=1487595862
+%%^
+WS: off
+
+WS: Done
+## 1487595913 2017/2/20 13:5:13 0 4171.25 98.77 >ID
+Idle: Begin
+Idle: Done
+## 1487596549 2017/2/20 13:15:49 0 4176.25 98.77 >TX
+TS: #0: +24 % 24 == 13 previousHour=0 hour=13 0
+TS: #1: +0 % 6 == 1 previousHour=13 hour=13 0
+TS: #2: +2 % 6 == 3 previousHour=0 hour=13 0
+TS: -1
+## 1487596549 2017/2/20 13:15:49 0 4176.25 98.77 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487597150 2017/2/20 13:25:50 0 4171.25 98.61 >WS
+WS: Check
+
+WS: Done
+## 1487597160 2017/2/20 13:26:0 0 4173.75 98.61 >ID
+Idle: Begin
+Idle: Done
+## 1487597793 2017/2/20 13:36:33 0 4173.75 98.45 >TX
+TS: #0: +24 % 24 == 13 previousHour=0 hour=13 0
+TS: #1: +0 % 6 == 1 previousHour=0 hour=13 0
+TS: #2: +2 % 6 == 3 previousHour=0 hour=13 0
+TS: -1
+## 1487597793 2017/2/20 13:36:33 0 4173.75 98.45 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487598394 2017/2/20 13:46:34 0 4170.00 98.29 >WS
+WS: Check
+
+WS: Done
+## 1487598404 2017/2/20 13:46:44 0 4171.25 98.29 >ID
+Idle: Begin
+Idle: Done
+## 1487599036 2017/2/20 13:57:16 0 4173.75 98.29 >TX
+TS: #0: +24 % 24 == 13 previousHour=0 hour=13 0
+TS: #1: +0 % 6 == 1 previousHour=0 hour=13 0
+TS: #2: +2 % 6 == 3 previousHour=0 hour=13 0
+TS: -1
+## 1487599036 2017/2/20 13:57:16 0 4173.75 98.29 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487599637 2017/2/20 14:7:17 0 4168.75 98.13 >WS
+WS: Check
+WS: >Ignoring
+WS: hup
+WS: on
+
+WS: Done
+## 1487599647 2017/2/20 14:7:27 1 4166.25 98.13 >ID
+Idle: Begin
+Idle: Done
+## 1487600278 2017/2/20 14:17:58 1 4168.75 98.13 >TX
+TS: #0: +24 % 24 == 14 previousHour=0 hour=14 0
+TS: #1: +0 % 6 == 2 previousHour=0 hour=14 0
+TS: #2: +2 % 6 == 4 previousHour=0 hour=14 0
+TS: -1
+## 1487600278 2017/2/20 14:17:58 1 4168.75 98.13 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487600879 2017/2/20 14:27:59 1 4165.00 97.82 >WS
+WS: Check
+
+WS: Done
+## 1487600889 2017/2/20 14:28:9 1 4166.25 97.82 >ID
+Idle: Begin
+Idle: Done
+## 1487601521 2017/2/20 14:38:41 1 4166.25 97.82 >TX
+TS: #0: +24 % 24 == 14 previousHour=0 hour=14 0
+TS: #1: +0 % 6 == 2 previousHour=0 hour=14 0
+TS: #2: +2 % 6 == 4 previousHour=0 hour=14 0
+TS: -1
+## 1487601521 2017/2/20 14:38:41 1 4166.25 97.82 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487602122 2017/2/20 14:48:42 1 4162.50 97.50 >WS
+WS: Check
+
+WS: Done
+## 1487602132 2017/2/20 14:48:52 1 4163.75 97.50 >ID
+Idle: Begin
+Idle: Done
+## 1487602764 2017/2/20 14:59:24 1 4163.75 97.50 >TX
+TS: #0: +24 % 24 == 14 previousHour=0 hour=14 0
+TS: #1: +0 % 6 == 2 previousHour=0 hour=14 0
+TS: #2: +2 % 6 == 4 previousHour=0 hour=14 0
+TS: -1
+## 1487602764 2017/2/20 14:59:24 1 4163.75 97.50 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487603364 2017/2/20 15:9:24 1 4158.75 97.18 >WS
+WS: Check
+WS: >Reading
+WS: have reading
+1487603328.00,-1.00,0.00,0.00,0.00,0.00,359.00,0.00,0.00,13.20,32.20,0.00,0.00,101931.00,3.15,41.31,-72.93,92.60,8.00,200217.00,15085700.00,1564604.00
+WS: >Off
+
+&%Clock Adjusted before=1487603366
+%%^
+WS: off
+
+WS: Done
+## 1487603336 2017/2/20 15:8:56 0 4158.75 97.18 >ID
+Idle: Begin
+Idle: Done
+## 1487603963 2017/2/20 15:19:23 0 4162.50 97.18 >TX
+TS: #0: +24 % 24 == 15 previousHour=0 hour=15 0
+TS: #1: +0 % 6 == 3 previousHour=0 hour=15 0
+TS: #2: +2 % 6 == 5 previousHour=0 hour=15 0
+TS: -1
+## 1487603963 2017/2/20 15:19:23 0 4162.50 97.18 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487604563 2017/2/20 15:29:23 0 4158.75 97.03 >WS
+WS: Check
+
+WS: Done
+## 1487604573 2017/2/20 15:29:33 0 4161.25 97.03 >ID
+Idle: Begin
+Idle: Done
+## 1487605199 2017/2/20 15:39:59 0 4161.25 97.03 >TX
+TS: #0: +24 % 24 == 15 previousHour=0 hour=15 0
+TS: #1: +0 % 6 == 3 previousHour=0 hour=15 0
+TS: #2: +2 % 6 == 5 previousHour=0 hour=15 0
+TS: -1
+## 1487605199 2017/2/20 15:39:59 0 4161.25 97.03 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487605799 2017/2/20 15:49:59 0 4158.75 96.87 >WS
+WS: Check
+
+WS: Done
+## 1487605809 2017/2/20 15:50:9 0 4158.75 96.87 >ID
+Idle: Begin
+Idle: Done
+## 1487606434 2017/2/20 16:0:34 0 4160.00 96.87 >TX
+TS: #0: +24 % 24 == 16 previousHour=0 hour=16 0
+TS: #1: +0 % 6 == 4 previousHour=0 hour=16 0
+TS: #2: +2 % 6 == 0 previousHour=0 hour=16 1
+TS: 2
+TS: sendSensorTransmission: 7 weather
+End of queue
+End of queue
+Message: 1487603328,R4,WE,4160.00,96.87,97.18,32.20,13.20,101931.00,0.00,359.00,0.00,0.00,0.00
+Calling internalBegin
+Powering on RockBLOCK...!
+>> AT
+Waiting for response OK
+
+<< WÈ Q @                                                    >> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=85
+Waiting for response READY
+
+<< AT+SBDWB=85
+READY
+[85 bytes]Checksum:4257
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:3
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: no network service
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: no network service
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+SB: send failed: 7
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=85
+Waiting for response READY
+
+<< AT+SBDWB=85
+READY
+[85 bytes]Checksum:4257
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:5
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a23deca
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 32, 94, 2, 0, 0, 0
+
+OK
+SBDIX MO code: 32
+Waiting for SBDIX retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3a23e3b7
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 32, 94, 2, 0, 0, 0
+
+OK
+SBDIX MO code: 32
+Waiting for SBDIX retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+SBDIX timeout!
+SB: send failed: 7
+Powering off RockBLOCK...!
+Done
+RockBlock: 0
+## 1487607084 2017/2/20 16:11:24 0 4158.75 96.71 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487607684 2017/2/20 16:21:24 0 4156.25 96.55 >WS
+WS: Check
+WS: >Ignoring
+WS: hup
+WS: on
+
+WS: Done
+## 1487607694 2017/2/20 16:21:34 1 4153.75 96.55 >ID
+Idle: Begin
+Idle: Done
+## 1487608318 2017/2/20 16:31:58 1 4158.75 96.55 >TX
+TS: #0: +24 % 24 == 16 previousHour=0 hour=16 0
+TS: #1: +0 % 6 == 4 previousHour=0 hour=16 0
+TS: #2: +2 % 6 == 0 previousHour=17 hour=16 0
+TS: -1
+## 1487608318 2017/2/20 16:31:58 1 4158.75 96.55 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487608918 2017/2/20 16:41:58 1 4153.75 96.39 >WS
+WS: Check
+
+WS: Done
+## 1487608928 2017/2/20 16:42:8 1 4153.75 96.39 >ID
+Idle: Begin
+Idle: Done
+## 1487609547 2017/2/20 16:52:27 1 4156.25 96.23 >TX
+TS: #0: +24 % 24 == 16 previousHour=0 hour=16 0
+TS: #1: +0 % 6 == 4 previousHour=0 hour=16 0
+TS: #2: +2 % 6 == 0 previousHour=17 hour=16 0
+TS: -1
+## 1487609547 2017/2/20 16:52:27 1 4156.25 96.23 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487610148 2017/2/20 17:2:28 1 4151.25 96.08 >WS
+WS: Check
+
+WS: Done
+## 1487610158 2017/2/20 17:2:38 1 4152.50 96.08 >ID
+Idle: Begin
+Idle: Done
+## 1487610786 2017/2/20 17:13:6 1 4152.50 95.92 >TX
+TS: #0: +24 % 24 == 17 previousHour=0 hour=17 0
+TS: #1: +0 % 6 == 5 previousHour=0 hour=17 0
+TS: #2: +2 % 6 == 1 previousHour=17 hour=17 0
+TS: -1
+## 1487610786 2017/2/20 17:13:6 1 4152.50 95.92 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487611386 2017/2/20 17:23:6 1 4148.75 95.76 >WS
+WS: Check
+WS: >Reading
+WS: have reading
+1487611392.00,-1.00,0.00,0.00,0.00,0.00,359.00,0.00,0.00,15.70,27.10,0.00,0.00,102000.25,3.07,41.31,-72.93,80.10,5.00,200217.00,17231700.00,1454489.00
+WS: >Off
+
+&%Clock Adjusted before=1487611388
+%%^
+WS: off
+
+WS: Done
+## 1487611400 2017/2/20 17:23:20 0 4148.75 95.76 >ID
+Idle: Begin
+Idle: Done
+## 1487612032 2017/2/20 17:33:52 0 4152.50 95.76 >TX
+TS: #0: +24 % 24 == 17 previousHour=0 hour=17 0
+TS: #1: +0 % 6 == 5 previousHour=0 hour=17 0
+TS: #2: +2 % 6 == 1 previousHour=0 hour=17 0
+TS: -1
+## 1487612032 2017/2/20 17:33:52 0 4152.50 95.76 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1487612633 2017/2/20 17:43:53 0 4148.75 95.60 >WS
+WS: Check
+
+WS: Done
+## 1487612643 2017/2/20 17:44:3 0 4150.00 95.60 >ID
+Idle: Begin
+Idle: Done
+## 1487613276 2017/2/20 17:54:36 0 4151.25 95.60 >TX
+TS: #0: +24 % 24 == 17 previousHour=0 hour=17 0
+TS: #1: +0 % 6 == 5 previousHour=0 hour=17 0
+TS: #2: +2 % 6 == 1 previousHour=0 hour=17 0
+TS: -1
+## 1487613276 2017/2/20 17:54:36 0 4151.25 95.60 >AW
+AW: RR

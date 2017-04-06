@@ -1,0 +1,2758 @@
+## 1491377713 2017/4/5 7:35:13 0 4127.50 98.45 >Begin
+ResetCause: PoR
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< >> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+0.00,270.00,53.10,53.10,270.00,0.40,0.00,53.10,270.00,66.40,18.60,nan,nan,0.66,0.66,98862.00,0.02,0.00,0.00,0.00,0.00,0.00,0.00,381.00
+WS: >CommunicationsOk
+WS: off
+preflight: Weather station good
+preflight: LoRa good
+Config: R9
+AW: RR
+
+AW: Done
+AW: Exit
+## 1491378357 2017/4/5 7:45:57 0 4172.50 98.29 >ID
+Idle: Begin
+Idle: Done
+## 1491379000 2017/4/5 7:56:40 0 4155.00 98.29 >TX
+Message: 1491379000,R9,ST,4155.00,98.29,1,0,0,606208,0,0,1,0,0,0,0.00,600000,600000,21600000,30,24,24,0,12,2,12,21
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+RB: Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=105
+Waiting for response READY
+
+<< AT+SBDWB=105
+READY
+[105 bytes]Checksum:5192
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3ca36ba0
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 2, 25, 0, 0, 0, 0
+
+OK
+SBDIX MO code: 2
+SBDIX success!
+RB: Done
+RockBlock: 1
+TS: #0: +24 % 24 == 7 previousHour=0 hour=7 0
+TS: #1: +0 % 12 == 7 previousHour=0 hour=7 0
+TS: #2: +2 % 12 == 9 previousHour=0 hour=7 0
+TS: -1
+## 1491379168 2017/4/5 7:59:28 0 4157.50 98.13 >AW
+AW: RR
+WS: >Waiting 0, 0 < 30
+WS: on
+WS: >Reading
+1491379200.00,315.00,4.30,53.10,270.00,2.20,338.00,53.10,270.00,74.70,13.10,nan,nan,2.44,2.44,98855.75,0.01,0.00,0.00,0.00,3.00,50417.00,7595700.00,9051.00
+Clock Adjusted before=1491379261
+WS: >Waiting ms=1183 228
+WS: >Reading
+1491379200.00,270.00,4.30,53.10,270.00,4.20,303.00,53.10,270.00,74.60,13.10,nan,nan,4.39,4.39,98856.75,0.01,34.00,-117.36,252.20,8.00,50417.00,8005800.00,28753.00
+Clock Adjusted before=1491379261
+WS: >Waiting ms=1238 282
+WS: >Reading
+1491379328.00,270.00,4.30,53.10,270.00,4.00,279.00,53.10,270.00,74.50,13.20,nan,nan,6.34,6.34,98857.25,0.01,34.00,-117.36,252.40,8.00,50417.00,8020000.00,48047.00
+Clock Adjusted before=1491379262
+WS: >Waiting ms=1332 282
+WS: >Reading
+1491379328.00,270.00,4.30,53.10,270.00,4.00,270.00,53.10,270.00,74.00,13.30,nan,nan,8.28,8.28,98855.00,0.01,34.00,-117.36,254.00,8.00,50417.00,8030000.00,69043.00
+Clock Adjusted before=1491379390
+WS: >Waiting ms=1315 282
+WS: >Reading
+1491379456.00,270.00,4.30,53.10,270.00,4.00,270.00,53.10,270.00,74.30,13.30,nan,nan,10.23,10.23,98858.00,0.01,34.00,-117.36,249.00,9.00,50417.00,8040300.00,88274.00
+Clock Adjusted before=1491379389
+WS: >Waiting ms=1327 286
+WS: >Reading
+1491379456.00,270.00,4.30,53.10,270.00,4.00,270.00,53.10,270.00,74.30,13.30,nan,nan,12.18,12.18,98858.25,0.01,34.00,-117.36,248.60,9.00,50417.00,8045700.00,109436.00
+Clock Adjusted before=1491379518
+WS: >Waiting ms=1463 288
+WS: >Reading
+1491379584.00,270.00,4.30,53.10,270.00,4.00,270.00,53.10,270.00,74.00,13.30,nan,nan,14.12,14.12,98856.75,0.01,34.00,-117.36,247.50,8.00,50417.00,8060400.00,130429.00
+Clock Adjusted before=1491379518
+WS: >Waiting ms=1498 288
+WS: >Reading
+1491379584.00,270.00,4.30,53.10,270.00,4.00,270.00,53.10,270.00,74.20,13.30,nan,nan,16.07,16.07,98855.50,0.01,34.00,-117.36,247.50,8.00,50417.00,8070800.00,150265.00
+Clock Adjusted before=1491379645
+WS: >Waiting ms=1493 288
+WS: >Reading
+1491379712.00,270.00,4.30,53.10,270.00,4.00,270.00,53.10,270.00,74.40,13.20,nan,nan,18.02,18.02,98852.00,0.01,34.00,-117.36,243.10,9.00,50417.00,8081000.00,170074.00
+Clock Adjusted before=1491379646
+WS: >Waiting ms=1496 288
+
+AW: Done
+AW: Exit
+## 1491379727 2017/4/5 8:8:47 1 4147.50 97.50 >ID
+Idle: Begin
+WS: >Reading
+1491379712.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,315.00,74.40,13.20,nan,nan,20.46,20.46,98854.75,0.01,34.00,-117.36,245.60,9.00,50417.00,8092500.00,197260.00
+Clock Adjusted before=1491379790
+WS: >Waiting ms=1608 286
+WS: >Reading
+1491379840.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,270.00,75.00,13.10,nan,nan,22.70,22.70,98852.00,0.01,34.00,-117.36,249.40,9.00,50417.00,8103400.00,221500.00
+Clock Adjusted before=1491379783
+WS: >Waiting ms=1258 286
+WS: >Reading
+1491379840.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,270.00,74.60,13.00,nan,nan,24.95,24.95,98847.25,0.01,34.00,-117.36,248.60,8.00,50417.00,8114200.00,246568.00
+Clock Adjusted before=1491379911
+WS: >Waiting ms=1228 286
+WS: >Reading
+1491379968.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,270.00,75.60,12.90,nan,nan,27.19,27.19,98847.00,0.01,34.00,-117.36,244.60,8.00,50417.00,8125100.00,271730.00
+Clock Adjusted before=1491379911
+WS: >Waiting ms=1210 275
+WS: >Reading
+1491380096.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,270.00,76.10,12.90,nan,nan,29.44,29.44,98853.25,0.01,34.00,-117.36,242.50,7.00,50417.00,8141000.00,296677.00
+Clock Adjusted before=1491380039
+WS: >Waiting ms=1205 259
+WS: >Reading
+1491380096.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,270.00,76.30,12.80,nan,nan,31.68,31.68,98860.75,0.01,34.00,-117.36,244.40,8.00,50417.00,8152100.00,321731.00
+Clock Adjusted before=1491380167
+WS: >Waiting ms=1161 240
+WS: >Reading
+1491380224.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,270.00,76.70,12.80,nan,nan,33.92,33.92,98859.00,0.01,34.00,-117.36,245.60,8.00,50417.00,8163200.00,347044.00
+Clock Adjusted before=1491380167
+WS: >Waiting ms=1192 259
+WS: >Reading
+1491380224.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,270.00,76.20,12.80,nan,nan,36.17,36.17,98863.25,0.01,34.00,-117.36,251.90,8.00,50417.00,8174300.00,372542.00
+Clock Adjusted before=1491380295
+WS: >Waiting ms=1174 249
+WS: >Reading
+1491380352.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,270.00,76.20,12.70,nan,nan,38.41,38.41,98860.50,0.01,34.00,-117.36,254.10,7.00,50417.00,8185400.00,398150.00
+Clock Adjusted before=1491380295
+WS: >Waiting ms=1172 246
+Idle: Done
+## 1491380379 2017/4/5 8:19:39 1 4150.00 96.87 >TX
+TS: #0: +24 % 24 == 8 previousHour=0 hour=8 0
+TS: #1: +0 % 12 == 8 previousHour=0 hour=8 0
+TS: #2: +2 % 12 == 10 previousHour=0 hour=8 0
+TS: -1
+## 1491380379 2017/4/5 8:19:39 1 4150.00 96.87 >AW
+AW: RR
+WS: >Reading
+1491380352.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,270.00,77.30,12.60,nan,nan,40.36,40.36,98861.75,0.01,34.00,-117.36,247.20,7.00,50417.00,8195600.00,419851.00
+Clock Adjusted before=1491380414
+WS: >Waiting ms=1152 225
+WS: >Reading
+1491380480.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,270.00,77.70,12.50,nan,nan,42.31,42.31,98858.50,0.01,34.00,-117.36,247.90,8.00,50417.00,8205300.00,442854.00
+Clock Adjusted before=1491380414
+WS: >Waiting ms=1366 286
+WS: >Reading
+1491380480.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,270.00,77.80,12.50,nan,nan,44.25,44.25,98856.75,0.01,34.00,-117.36,248.50,8.00,50417.00,8215900.00,464291.00
+Clock Adjusted before=1491380541
+WS: >Waiting ms=1437 286
+WS: >Reading
+1491380608.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,270.00,77.60,12.40,nan,nan,46.20,46.20,98853.50,0.01,34.00,-117.36,244.70,8.00,50417.00,8230100.00,485667.00
+Clock Adjusted before=1491380542
+WS: >Waiting ms=1431 286
+WS: >Reading
+1491380608.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,270.00,79.10,12.40,nan,nan,48.15,48.15,98852.25,0.01,34.00,-117.36,254.20,7.00,50417.00,8235700.00,508660.00
+Clock Adjusted before=1491380670
+WS: >Waiting ms=1439 286
+WS: >Reading
+1491380736.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,270.00,79.20,12.30,nan,nan,50.09,50.10,98848.25,0.01,34.00,-117.36,251.00,8.00,50417.00,8250400.00,530417.00
+Clock Adjusted before=1491380670
+WS: >Waiting ms=1439 286
+WS: >Reading
+1491380736.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,270.00,79.00,12.30,nan,nan,52.04,52.04,98846.25,0.01,34.00,-117.36,247.40,8.00,50417.00,8260600.00,551660.00
+Clock Adjusted before=1491380797
+WS: >Waiting ms=1443 286
+WS: >Reading
+1491380864.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,270.00,79.80,12.30,nan,nan,53.99,53.99,98846.50,0.01,34.00,-117.36,247.80,9.00,50417.00,8270000.00,574611.00
+Clock Adjusted before=1491380798
+WS: >Waiting ms=1424 286
+WS: >Reading
+1491380864.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,270.00,80.10,12.30,nan,nan,55.94,55.94,98847.50,0.01,34.00,-117.36,251.90,9.00,50417.00,8280900.00,596227.00
+Clock Adjusted before=1491380926
+WS: >Waiting ms=1433 286
+WS: >Reading
+1491380992.00,270.00,4.30,53.10,270.00,4.00,270.00,4.30,270.00,79.70,12.30,nan,nan,57.88,57.89,98846.25,0.01,34.00,-117.36,253.90,8.00,50417.00,8291100.00,616202.00
+Clock Adjusted before=1491380925
+WS: >Waiting ms=1444 286
+WS: >Off
+WS: off
+
+AW: Done
+AW: Exit
+## 1491381002 2017/4/5 8:30:2 0 4142.50 96.23 >ID
+Idle: Begin
+Idle: Done
+## 1491381648 2017/4/5 8:40:48 0 4152.50 95.92 >TX
+TS: #0: +24 % 24 == 8 previousHour=0 hour=8 0
+TS: #1: +0 % 12 == 8 previousHour=0 hour=8 0
+TS: #2: +2 % 12 == 10 previousHour=0 hour=8 0
+TS: -1
+## 1491381648 2017/4/5 8:40:48 0 4152.50 95.92 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1491382249 2017/4/5 8:50:49 0 4147.50 95.76 >ID
+Idle: Begin
+WS: >Waiting 0, 0 < 30
+WS: on
+WS: >Reading
+WS: >Waiting (no reading) ms=11192 0
+Idle: Done
+## 1491382909 2017/4/5 9:1:49 1 4133.75 95.45 >TX
+TS: #0: +24 % 24 == 9 previousHour=0 hour=9 0
+TS: #1: +0 % 12 == 9 previousHour=0 hour=9 0
+TS: #2: +2 % 12 == 11 previousHour=0 hour=9 0
+TS: -1
+## 1491382909 2017/4/5 9:1:49 1 4133.75 95.45 >AW
+AW: RR
+WS: >Reading
+WS: >Waiting (no reading) ms=19796 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19793 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19799 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19796 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19796 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19802 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19795 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19799 0
+
+AW: Done
+AW: Exit
+## 1491383524 2017/4/5 9:12:4 1 4126.25 94.81 >ID
+Idle: Begin
+WS: >Reading
+WS: >Waiting (no reading) ms=11186 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11191 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11185 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11191 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11189 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11189 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11183 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11183 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11184 0
+Idle: Done
+## 1491384273 2017/4/5 9:24:33 1 4130.00 94.18 >TX
+TS: #0: +24 % 24 == 9 previousHour=0 hour=9 0
+TS: #1: +0 % 12 == 9 previousHour=0 hour=9 0
+TS: #2: +2 % 12 == 11 previousHour=0 hour=9 0
+TS: -1
+## 1491384273 2017/4/5 9:24:33 1 4130.00 94.18 >AW
+AW: RR
+WS: >Reading
+WS: >Waiting (no reading) ms=19793 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19804 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19796 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19800 0
+WS: >Off
+WS: off
+
+AW: Done
+AW: Exit
+## 1491384874 2017/4/5 9:34:34 0 4127.50 93.70 >ID
+Idle: Begin
+Idle: Done
+## 1491385521 2017/4/5 9:45:21 0 4132.50 93.55 >TX
+TS: #0: +24 % 24 == 9 previousHour=0 hour=9 0
+TS: #1: +0 % 12 == 9 previousHour=0 hour=9 0
+TS: #2: +2 % 12 == 11 previousHour=0 hour=9 0
+TS: -1
+## 1491385521 2017/4/5 9:45:21 0 4132.50 93.55 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1491386122 2017/4/5 9:55:22 0 4128.75 93.23 >ID
+Idle: Begin
+WS: >Waiting 0, 0 < 30
+WS: on
+Fast track to transmission.
+Idle: Done
+## 1491386403 2017/4/5 10:0:3 1 4122.50 93.23 >TX
+TS: #0: +24 % 24 == 10 previousHour=0 hour=10 0
+TS: #1: +0 % 12 == 10 previousHour=0 hour=10 0
+TS: #2: +2 % 12 == 0 previousHour=0 hour=10 1
+TS: 2
+TS: sendSensorTransmission: 28 weather
+End of queue
+Message: 1491380992,R9,WE,4118.75,93.23,96.23, nan, nan,98846.25,4.00,270.00,4.30,270.00,57.89
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:1
+
+OK
+RB: Signal quality: 1
+internalSendReceive
+>> AT+SBDWB=85
+Waiting for response READY
+
+<< AT+SBDWB=85
+READY
+[85 bytes]Checksum:4636
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:2
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3ca4a7eb
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 0, 26, 0, 0, 0, 0
+
+OK
+SBDIX MO code: 0
+SBDIX success!
+RB: Done
+RockBlock: 1
+## 1491386441 2017/4/5 10:0:41 1 4110.00 93.07 >AW
+AW: RR
+WS: >Reading
+WS: >Waiting (no reading) ms=19790 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19800 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19801 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19790 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19795 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19799 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19795 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19796 0
+
+AW: Done
+AW: Exit
+## 1491387043 2017/4/5 10:10:43 1 4115.00 92.44 >ID
+Idle: Begin
+WS: >Reading
+WS: >Waiting (no reading) ms=11195 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11185 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11190 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11184 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11186 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11185 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11192 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11192 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11182 0
+Idle: Done
+## 1491387793 2017/4/5 10:23:13 1 4112.50 91.80 >TX
+TS: #0: +24 % 24 == 10 previousHour=0 hour=10 0
+TS: #1: +0 % 12 == 10 previousHour=0 hour=10 0
+TS: #2: +2 % 12 == 0 previousHour=11 hour=10 0
+TS: -1
+## 1491387793 2017/4/5 10:23:13 1 4112.50 91.80 >AW
+AW: RR
+WS: >Reading
+WS: >Waiting (no reading) ms=19796 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19800 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19795 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19802 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19793 0
+WS: >Off
+WS: off
+
+AW: Done
+AW: Exit
+## 1491388394 2017/4/5 10:33:14 0 4113.75 91.33 >ID
+Idle: Begin
+Idle: Done
+## 1491389043 2017/4/5 10:44:3 0 4108.75 91.17 >TX
+TS: #0: +24 % 24 == 10 previousHour=0 hour=10 0
+TS: #1: +0 % 12 == 10 previousHour=0 hour=10 0
+TS: #2: +2 % 12 == 0 previousHour=11 hour=10 0
+TS: -1
+## 1491389043 2017/4/5 10:44:3 0 4110.00 91.17 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1491389643 2017/4/5 10:54:3 0 4110.00 90.86 >ID
+Idle: Begin
+WS: >Waiting 0, 0 < 30
+WS: on
+WS: >Reading
+WS: >Waiting (no reading) ms=11187 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11191 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11193 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11194 0
+Idle: Done
+## 1491390339 2017/4/5 11:5:39 1 4102.50 90.54 >TX
+TS: #0: +24 % 24 == 11 previousHour=0 hour=11 0
+TS: #1: +0 % 12 == 11 previousHour=0 hour=11 0
+TS: #2: +2 % 12 == 1 previousHour=11 hour=11 0
+TS: -1
+## 1491390339 2017/4/5 11:5:39 1 4102.50 90.54 >AW
+AW: RR
+WS: >Reading
+WS: >Waiting (no reading) ms=19799 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19793 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19794 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19798 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19796 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19798 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19790 0
+
+AW: Done
+AW: Exit
+## 1491390939 2017/4/5 11:15:39 1 4095.00 89.91 >ID
+Idle: Begin
+WS: >Reading
+WS: >Waiting (no reading) ms=11182 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11183 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11195 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11190 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11183 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11184 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11188 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11195 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11192 0
+WS: >Reading
+Idle: Done
+## 1491391689 2017/4/5 11:28:9 1 4093.75 89.43 >TX
+TS: #0: +24 % 24 == 11 previousHour=0 hour=11 0
+TS: #1: +0 % 12 == 11 previousHour=0 hour=11 0
+TS: #2: +2 % 12 == 1 previousHour=0 hour=11 0
+TS: -1
+## 1491391689 2017/4/5 11:28:9 1 4093.75 89.43 >AW
+AW: RR
+WS: >Waiting (no reading) ms=19761 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19790 0
+WS: >Off
+WS: off
+
+AW: Done
+AW: Exit
+## 1491392290 2017/4/5 11:38:10 0 4096.25 88.96 >ID
+Idle: Begin
+Idle: Done
+## 1491392939 2017/4/5 11:48:59 0 4098.75 88.96 >TX
+TS: #0: +24 % 24 == 11 previousHour=0 hour=11 0
+TS: #1: +0 % 12 == 11 previousHour=0 hour=11 0
+TS: #2: +2 % 12 == 1 previousHour=0 hour=11 0
+TS: -1
+## 1491392939 2017/4/5 11:48:59 0 4098.75 88.96 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1491393539 2017/4/5 11:58:59 0 4087.50 88.80 >ID
+Idle: Begin
+WS: >Waiting 0, 0 < 30
+WS: on
+Fast track to transmission.
+Idle: Done
+## 1491393602 2017/4/5 12:0:2 1 4090.00 88.64 >TX
+TS: #0: +24 % 24 == 12 previousHour=0 hour=12 0
+TS: #1: +0 % 12 == 0 previousHour=0 hour=12 1
+TS: #2: +2 % 12 == 2 previousHour=0 hour=12 0
+TS: 1
+TS: sendSensorTransmission: 0 atlas sonar
+## 1491393602 2017/4/5 12:0:2 1 4090.00 88.64 >AW
+AW: RR
+WS: >Reading
+WS: >Waiting (no reading) ms=19793 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19795 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19796 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19799 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19791 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19797 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19796 0
+
+AW: Done
+AW: Exit
+## 1491394202 2017/4/5 12:10:2 1 4083.75 88.07 >ID
+Idle: Begin
+WS: >Reading
+WS: >Waiting (no reading) ms=11194 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11185 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11186 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11183 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11191 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11188 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11185 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11195 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11192 0
+Idle: Done
+## 1491394953 2017/4/5 12:22:33 1 4082.50 87.64 >TX
+TS: #0: +24 % 24 == 12 previousHour=0 hour=12 0
+TS: #1: +0 % 12 == 0 previousHour=13 hour=12 0
+TS: #2: +2 % 12 == 2 previousHour=0 hour=12 0
+TS: -1
+## 1491394954 2017/4/5 12:22:34 1 4082.50 87.64 >AW
+AW: RR
+WS: >Reading
+WS: >Waiting (no reading) ms=19790 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19799 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19806 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19795 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19800 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19802 0
+WS: >Off
+WS: off
+
+AW: Done
+AW: Exit
+## 1491395554 2017/4/5 12:32:34 0 4082.50 87.21 >ID
+Idle: Begin
+Idle: Done
+## 1491396204 2017/4/5 12:43:24 0 4083.75 87.21 >TX
+TS: #0: +24 % 24 == 12 previousHour=0 hour=12 0
+TS: #1: +0 % 12 == 0 previousHour=13 hour=12 0
+TS: #2: +2 % 12 == 2 previousHour=0 hour=12 0
+TS: -1
+## 1491396204 2017/4/5 12:43:24 0 4083.75 87.21 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1491396804 2017/4/5 12:53:24 0 4073.75 86.92 >ID
+Idle: Begin
+WS: >Waiting 0, 0 < 30
+WS: on
+WS: >Reading
+WS: >Waiting (no reading) ms=11190 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11189 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11184 0
+Idle: Done
+## 1491397490 2017/4/5 13:4:50 1 4066.25 86.63 >TX
+TS: #0: +24 % 24 == 13 previousHour=0 hour=13 0
+TS: #1: +0 % 12 == 1 previousHour=13 hour=13 0
+TS: #2: +2 % 12 == 3 previousHour=0 hour=13 0
+TS: -1
+## 1491397490 2017/4/5 13:4:50 1 4066.25 86.63 >AW
+AW: RR
+WS: >Reading
+WS: >Waiting (no reading) ms=19800 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19799 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19802 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19794 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19800 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19796 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19798 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19790 0
+
+AW: Done
+AW: Exit
+## 1491398090 2017/4/5 13:14:50 1 4063.75 86.06 >ID
+Idle: Begin
+WS: >Reading
+WS: >Waiting (no reading) ms=11185 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11182 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11190 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11188 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11189 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11187 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11192 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11186 0
+WS: >Reading
+WS: >Waiting (no reading) ms=11199 0
+Idle: Done
+## 1491398842 2017/4/5 13:27:22 1 4065.00 85.63 >TX
+TS: #0: +24 % 24 == 13 previousHour=0 hour=13 0
+TS: #1: +0 % 12 == 1 previousHour=0 hour=13 0
+TS: #2: +2 % 12 == 3 previousHour=0 hour=13 0
+TS: -1
+## 1491398842 2017/4/5 13:27:22 1 4065.00 85.63 >AW
+AW: RR
+WS: >Reading
+WS: >Waiting (no reading) ms=19798 0
+WS: >Reading
+WS: >Waiting (no reading) ms=19798 0
+WS: >Off
+WS: off
+
+AW: Done
+AW: Exit
+## 1491399443 2017/4/5 13:37:23 0 4066.25 85.34 >ID
+Idle: Begin
+Idle: Done
+Restarting: 22237919 
+Message: 1491400093,R9,ST,4067.50,85.34,1,1,0,10018816,0,0,29,0,0,0,102.73,600000,600000,21600000,30,24,24,0,12,2,12,370
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+RB: Signal quality: 0
+internalSendReceive
+>> AT+SBDWB=111
+Waiting for response READY
+
+<< AT+SBDWB=111
+READY
+[111 bytes]Checksum:5510
+Waiting for response 0
+
+OK
+
+<< 
+0
+
+OK
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:0
+
+OK
+Waiting for CSQ retry...
+>> AT+CSQ
+Waiting for response OK
+
+<< AT+CSQ
++CSQ:5
+
+OK
+>> AT-MSSTM
+Waiting for response OK
+
+<< AT-MSSTM
+-MSSTM: 3ca70065
+
+OK
+>> AT+SBDIX
+Waiting for response OK
+
+<< AT+SBDIX
++SBDIX: 0, 27, 0, 0, 0, 0
+
+OK
+SBDIX MO code: 0
+SBDIX success!
+RB: Done
+RockBlock: 1
+## 1491400279 2017/4/5 13:51:19 0 4045.00 86.06 >Begin
+ResetCause: Software
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19808 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491400369 2017/4/5 13:52:49 0 4055.00 84.34 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19813 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491400458 2017/4/5 13:54:18 0 4041.25 84.91 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19804 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491400547 2017/4/5 13:55:47 0 4045.00 83.68 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19801 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491400637 2017/4/5 13:57:17 0 4042.50 83.68 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19813 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491400726 2017/4/5 13:58:46 0 4051.25 83.68 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19802 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491400815 2017/4/5 14:0:15 0 4045.00 84.91 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19812 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491400904 2017/4/5 14:1:44 0 4051.25 83.68 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19805 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491400994 2017/4/5 14:3:14 0 4051.25 84.91 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19802 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491401083 2017/4/5 14:4:43 0 4040.00 84.91 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19808 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491401172 2017/4/5 14:6:12 0 4050.00 83.68 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19802 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491401261 2017/4/5 14:7:41 0 4037.50 84.91 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19808 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491401351 2017/4/5 14:9:11 0 4048.75 84.34 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19809 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491401440 2017/4/5 14:10:40 0 4047.50 84.34 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19803 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491401529 2017/4/5 14:12:9 0 4035.00 83.03 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< ## 1491401559 2017/4/5 14:12:39 0 4052.50 84.34 >Begin
+ResetCause: BOD33
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19802 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491401648 2017/4/5 14:14:8 0 4032.50 84.34 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19811 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491401738 2017/4/5 14:15:38 0 4045.00 84.34 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19800 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491401827 2017/4/5 14:17:7 0 4037.50 83.68 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19805 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491401916 2017/4/5 14:18:36 0 4045.00 83.68 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19801 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491402005 2017/4/5 14:20:5 0 4045.00 83.68 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19806 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491402094 2017/4/5 14:21:34 0 4040.00 83.68 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19808 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491402183 2017/4/5 14:23:3 0 4042.50 83.68 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< ## 1491402257 2017/4/5 14:24:17 0 4047.50 84.34 >Begin
+ResetCause: External Reset
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19810 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491402346 2017/4/5 14:25:46 0 4042.50 82.54 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19809 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491402435 2017/4/5 14:27:15 0 4042.50 83.68 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19809 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491402524 2017/4/5 14:28:44 0 4041.25 83.68 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19802 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491402613 2017/4/5 14:30:13 0 4027.50 83.68 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19811 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491402702 2017/4/5 14:31:42 0 4040.00 83.68 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19806 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491402791 2017/4/5 14:33:11 0 4040.00 83.68 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19805 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491402880 2017/4/5 14:34:40 0 4038.75 83.68 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19802 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491402969 2017/4/5 14:36:9 0 4036.25 83.03 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19811 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491403058 2017/4/5 14:37:38 0 4040.00 83.68 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19810 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491403147 2017/4/5 14:39:7 0 4040.00 82.38 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19813 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491403236 2017/4/5 14:40:36 0 4037.50 82.38 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19800 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491403325 2017/4/5 14:42:5 0 4037.50 83.03 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19800 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491403414 2017/4/5 14:43:34 0 4037.50 82.38 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19815 0
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491403503 2017/4/5 14:45:3 0 4037.50 83.03 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19813 1374
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491403592 2017/4/5 14:46:32 0 4037.50 83.03 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: no reading: 31 24
+WS: >Waiting (no reading) ms=19812 1547
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491403681 2017/4/5 14:48:1 0 4025.00 82.38 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19805 1545
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491403770 2017/4/5 14:49:30 0 4035.00 83.03 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19803 1539
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491403859 2017/4/5 14:50:59 0 4035.00 81.73 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+WS: >Waiting (no reading) ms=19812 1543
+WS: off
+preflight: Weather station failed
+preflight: LoRa good
+Config: R9
+AW: RR
+## 1491403948 2017/4/5 14:52:28 0 4033.75 82.38 >Begin
+ResetCause: WDT
+WS: off
+Preflight
+Calling internalBegin
+>> AT
+Waiting for response OK
+
+<< AT
+OK
+>> ATE1
+Waiting for response OK
+
+<< ATE1
+OK
+>> AT&D0
+Waiting for response OK
+
+<< AT&D0
+OK
+>> AT&K0
+Waiting for response OK
+
+<< AT&K0
+OK
+InternalBegin: success!
+preflight: RockBlock good
+preflight: Checking weather station
+WS: on
+0.00,315.00,4.40,53.10,315.00,0.60,358.00,53.10,315.00,55.30,18.80,nan,nan,0.82,0.82,98717.00,0.30,0.00,0.00,0.00,0.00,0.00,0.00,1268.00
+WS: >CommunicationsOk
+WS: off
+preflight: Weather station good
+preflight: LoRa good
+Config: R9
+AW: RR
+WS: >Waiting 0, 0 < 30
+WS: on
+WS: >Reading
+0.00,315.00,4.40,53.10,315.00,2.30,339.00,53.10,315.00,48.60,19.40,nan,nan,2.47,2.47,99225.25,0.35,0.00,0.00,0.00,0.00,50417.00,15002100.00,9251.00
+WS: >Waiting ms=1976 252
+WS: >Reading
+0.00,315.00,4.40,53.10,315.00,4.30,300.00,53.10,315.00,46.80,20.00,nan,nan,4.46,4.45,99420.25,0.32,0.00,0.00,0.00,0.00,50417.00,15012000.00,22967.00
+WS: >Waiting ms=1440 254
+
+AW: Done
+AW: Exit
+## 1491404566 2017/4/5 15:2:46 1 4031.25 82.21 >ID
+Idle: Begin
+WS: >Reading
+1491404544.00,270.00,4.30,53.10,315.00,4.00,271.00,53.10,315.00,49.50,20.40,nan,nan,6.96,6.96,99862.00,0.35,34.00,-117.87,153.00,6.00,50417.00,15023900.00,45752.00
+Clock Adjusted before=1491404602
+WS: >Waiting ms=2038 284
+WS: >Reading
+1491404672.00,270.00,4.30,53.10,315.00,4.00,270.00,53.10,315.00,51.20,20.90,nan,nan,9.17,9.17,99937.25,0.37,33.99,-117.89,137.70,8.00,50417.00,15034900.00,69025.00
+Clock Adjusted before=1491404614
+WS: >Waiting ms=1126 206
+WS: >Reading
+1491404672.00,270.00,4.30,53.10,315.00,4.00,270.00,53.10,315.00,50.20,21.20,nan,nan,11.39,11.38,100007.00,0.38,33.99,-117.91,138.00,8.00,50417.00,15045800.00,92861.00
+Clock Adjusted before=1491404742
+WS: >Waiting ms=1339 289
+WS: >Reading
+1491404800.00,270.00,4.30,53.10,315.00,4.00,270.00,53.10,315.00,48.40,21.30,nan,nan,13.60,13.60,100190.25,0.39,34.00,-117.93,125.20,9.00,50417.00,15060400.00,117392.00
+Clock Adjusted before=1491404743
+WS: >Waiting ms=1292 292
+WS: >Reading
+1491404800.00,270.00,4.30,53.10,315.00,4.00,270.00,53.10,315.00,49.80,21.50,nan,nan,15.81,15.81,100340.00,0.42,34.00,-117.94,121.90,10.00,50417.00,15072000.00,141768.00
+Clock Adjusted before=1491404870
+WS: >Waiting ms=1442 294
+WS: >Reading
+1491404928.00,270.00,4.30,53.10,315.00,4.00,270.00,53.10,315.00,49.40,21.60,nan,nan,18.02,18.02,100365.50,0.36,34.00,-117.95,117.20,10.00,50417.00,15083000.00,168136.00
+Clock Adjusted before=1491404870
+WS: >Waiting ms=1487 294
+WS: >Reading
+1491404928.00,270.00,4.30,53.10,315.00,4.00,270.00,53.10,315.00,50.40,21.80,nan,nan,20.23,20.23,100426.50,0.42,34.00,-117.95,112.60,10.00,50417.00,15093700.00,195488.00
+Clock Adjusted before=1491404999
+WS: >Waiting ms=1534 294
+WS: >Reading
+1491405056.00,270.00,4.30,53.10,315.00,4.00,270.00,4.40,270.00,50.90,21.90,nan,nan,22.44,22.44,100477.75,0.42,34.01,-117.96,109.00,10.00,50417.00,15105100.00,221953.00
+Clock Adjusted before=1491404998
+WS: >Waiting ms=1463 292
+WS: >Reading
+1491405184.00,270.00,4.30,53.10,315.00,4.00,270.00,4.30,270.00,50.00,21.90,nan,nan,24.65,24.65,100516.00,0.41,34.01,-117.97,106.50,10.00,50417.00,15120100.00,248634.00
+Clock Adjusted before=1491405126
+WS: >Waiting ms=1451 292
+Idle: Done
+## 1491405236 2017/4/5 15:13:56 1 4030.00 81.73 >TX
+TS: #0: +24 % 24 == 15 previousHour=0 hour=15 0
+TS: #1: +0 % 12 == 3 previousHour=0 hour=15 0
+TS: #2: +2 % 12 == 5 previousHour=0 hour=15 0
+TS: -1
+## 1491405236 2017/4/5 15:13:56 1 4030.00 81.73 >AW
+AW: RR
+WS: >Reading
+1491405184.00,270.00,4.30,53.10,315.00,4.00,270.00,4.30,270.00,50.70,22.00,nan,nan,26.60,26.60,100520.75,0.42,34.01,-117.97,107.40,11.00,50417.00,15130300.00,273349.00
+Clock Adjusted before=1491405246
+WS: >Waiting ms=1907 292
+WS: >Reading
+1491405184.00,270.00,4.30,53.10,315.00,4.00,270.00,4.30,270.00,50.70,22.10,nan,nan,28.55,28.54,100484.25,0.43,34.01,-117.98,111.60,11.00,50417.00,15140400.00,298205.00
+Clock Adjusted before=1491405246
+WS: >Waiting ms=1618 292
+WS: >Reading
+1491405312.00,270.00,4.30,53.10,315.00,4.00,270.00,4.30,270.00,50.20,22.20,nan,nan,30.49,30.49,100448.75,0.53,34.01,-117.98,112.30,11.00,50417.00,15150100.00,323184.00
+Clock Adjusted before=1491405246
+WS: >Waiting ms=1614 292
+WS: >Reading
+1491405312.00,270.00,4.30,53.10,315.00,4.00,270.00,4.30,270.00,50.30,22.30,nan,nan,32.44,32.44,100441.75,0.52,34.02,-117.99,108.70,10.00,50417.00,15160600.00,347639.00
+Clock Adjusted before=1491405374
+WS: >Waiting ms=1613 292
+WS: >Reading
+1491405440.00,270.00,4.30,53.10,315.00,4.00,270.00,4.30,270.00,50.20,22.40,nan,nan,34.39,34.39,100412.75,0.55,34.02,-117.99,112.40,10.00,50417.00,15171000.00,371713.00
+Clock Adjusted before=1491405373
+WS: >Waiting ms=1613 292
+WS: >Reading
+1491405440.00,270.00,4.30,53.10,315.00,4.00,270.00,4.30,270.00,50.20,22.50,nan,nan,36.33,36.33,100386.50,0.52,34.02,-117.99,113.10,11.00,50417.00,15181200.00,395596.00
+Clock Adjusted before=1491405502
+WS: >Waiting ms=1614 292
+WS: >Reading
+1491405568.00,270.00,4.30,53.10,315.00,4.00,270.00,4.30,270.00,49.60,22.60,nan,nan,38.28,38.28,100434.25,0.51,34.02,-117.99,111.50,12.00,50417.00,15191400.00,419831.00
+Clock Adjusted before=1491405502
+WS: >Waiting ms=1612 292
+WS: >Reading
+1491405568.00,270.00,4.30,53.10,315.00,4.00,270.00,4.30,270.00,49.80,22.70,nan,nan,40.23,40.23,100411.00,0.39,34.03,-118.00,115.40,11.00,50417.00,15201600.00,444209.00
+Clock Adjusted before=1491405630
+WS: >Waiting ms=1623 292
+WS: >Reading
+1491405696.00,270.00,4.30,53.10,315.00,4.00,270.00,4.30,270.00,49.20,22.80,nan,nan,42.17,42.17,100512.00,0.26,34.03,-118.00,113.10,10.00,50417.00,15211800.00,468587.00
+Clock Adjusted before=1491405630
+WS: >Waiting ms=1593 292
+WS: >Reading
+2524577024.00,270.00,4.30,53.10,315.00,4.00,270.00,4.30,270.00,49.40,22.90,nan,nan,44.12,44.12,100527.50,0.34,34.03,-118.00,110.50,10.00,50.00,15221600.00,492938.00
+WS: >Waiting ms=1582 286
+
+AW: Done
+AW: Exit
+## 1491405791 2017/4/5 15:23:11 1 4026.25 81.24 >ID
+Idle: Begin
+WS: >Reading
+1491405824.00,270.00,4.30,53.10,315.00,4.00,270.00,4.30,270.00,48.60,23.00,nan,nan,46.56,46.56,100667.75,0.33,34.03,-118.01,92.80,10.00,50417.00,15233700.00,522036.00
+Clock Adjusted before=1491405835
+WS: >Waiting ms=1256 290
+WS: >Reading
+1491405824.00,270.00,4.30,53.10,315.00,4.00,270.00,4.30,270.00,48.60,23.10,nan,nan,48.77,48.78,100757.50,0.33,34.03,-118.01,83.30,10.00,50417.00,15244700.00,550089.00
+Clock Adjusted before=1491405894
+WS: >Waiting ms=1545 290
+WS: >Reading
+1491405952.00,270.00,4.30,53.10,315.00,4.00,270.00,4.30,270.00,48.00,23.00,nan,nan,50.99,50.99,100760.25,0.40,34.03,-118.02,85.50,10.00,50417.00,15255500.00,577877.00
+Clock Adjusted before=1491405895
+WS: >Waiting ms=1551 290
+WS: >Reading
+1491406080.00,270.00,4.30,53.10,315.00,4.00,270.00,4.30,270.00,48.60,22.80,nan,nan,53.20,53.20,100778.75,0.43,34.03,-118.03,84.80,10.00,50417.00,15270100.00,605180.00
+Clock Adjusted before=1491406022
+WS: >Waiting ms=1485 290
+WS: >Reading
+1491406080.00,270.00,4.30,53.10,315.00,4.00,274.00,4.30,270.00,49.60,22.40,nan,nan,55.41,55.41,100847.50,0.34,34.04,-118.04,78.20,10.00,50417.00,15281800.00,632235.00
+Clock Adjusted before=1491406150
+WS: >Waiting ms=1460 290
+WS: >Reading
+1491406208.00,270.00,4.30,53.10,315.00,4.00,282.00,4.30,270.00,50.00,22.10,nan,nan,57.62,57.62,100904.75,0.35,34.04,-118.05,72.50,10.00,50417.00,15292800.00,659584.00
+Clock Adjusted before=1491406150
+WS: >Waiting ms=1377 290
+WS: >Off
+WS: off
+Idle: Done
+## 1491406457 2017/4/5 15:34:17 0 4032.50 81.07 >TX
+TS: #0: +24 % 24 == 15 previousHour=0 hour=15 0
+TS: #1: +0 % 12 == 3 previousHour=0 hour=15 0
+TS: #2: +2 % 12 == 5 previousHour=0 hour=15 0
+TS: -1
+## 1491406457 2017/4/5 15:34:17 0 4032.50 81.07 >AW
+AW: RR
+
+AW: Done
+AW: Exit
+## 1491407058 2017/4/5 15:44:18 0 4030.00 80.91 >ID
+Idle: Begin
+Idle: Done
+## 1491407692 2017/4/5 15:54:52 0 4033.75 80.91 >TX
+TS: #0: +24 % 24 == 15 previousHour=0 hour=15 0
+TS: #1: +0 % 12 == 3 previousHour=0 hour=15 0
+TS: #2: +2 % 12 == 5 previousHour=0 hour=15 0
+TS: -1
+## 1491407692 2017/4/5 15:54:52 0 4033.75 80.91 >AW
+AW: RR
+WS: >Waiting 0, 0 < 30
+WS: on
+WS: >Reading
+0.00,270.00,4.40,53.10,270.00,2.30,318.00,53.10,270.00,39.80,23.90,nan,nan,2.47,2.47,100865.75,0.38,0.00,0.00,0.00,0.00,50417.00,16002300.00,10183.00
+WS: >Waiting ms=1911 255
+WS: >Reading
+1491408128.00,270.00,4.30,53.10,270.00,4.30,276.00,53.10,270.00,39.10,24.10,nan,nan,4.46,4.45,100785.50,0.41,0.00,0.00,0.00,3.00,50417.00,16012500.00,21550.00
+Clock Adjusted before=1491408123
+WS: >Waiting ms=1582 274
+WS: >Reading
+1491408128.00,-1.00,4.30,53.10,270.00,4.00,314.00,53.10,270.00,39.20,24.40,nan,nan,6.40,6.40,100797.75,0.44,34.03,-118.23,87.00,6.00,50417.00,16021900.00,39782.00
+Clock Adjusted before=1491408190
+WS: >Waiting ms=1291 283
+WS: >Reading
+1491408256.00,-1.00,4.30,53.10,270.00,4.00,356.00,53.10,270.00,37.00,24.70,nan,nan,8.35,8.35,100793.25,0.42,34.03,-118.23,81.30,9.00,50417.00,16032800.00,60475.00
+Clock Adjusted before=1491408190
+WS: >Waiting ms=1028 159
+
+AW: Done
+AW: Exit
+## 1491408302 2017/4/5 16:5:2 1 4015.00 80.59 >ID
+Idle: Begin
+WS: >Reading
+1491408256.00,-1.00,4.30,53.10,270.00,4.00,359.00,53.10,270.00,34.30,24.90,nan,nan,10.66,10.66,100811.25,0.43,34.02,-118.24,80.70,9.00,50417.00,16043900.00,86414.00
+Clock Adjusted before=1491408329
+WS: >Waiting ms=1171 238
+WS: >Reading
+1491408384.00,-1.00,4.30,53.10,270.00,4.00,359.00,53.10,270.00,33.10,25.10,nan,nan,12.87,12.87,100866.25,0.76,34.03,-118.25,77.60,9.00,50417.00,16054800.00,111296.00
+Clock Adjusted before=1491408326
+WS: >Waiting ms=1664 288
+WS: >Reading
+1491408384.00,-1.00,4.30,53.10,270.00,4.00,359.00,53.10,270.00,32.40,25.30,nan,nan,15.08,15.08,100855.75,0.78,34.03,-118.25,78.10,9.00,50417.00,16065500.00,136521.00
+Clock Adjusted before=1491408454
+WS: >Waiting ms=1693 288
+WS: >Reading
+1491408512.00,-1.00,4.30,53.10,270.00,4.00,359.00,53.10,270.00,31.50,25.40,nan,nan,17.29,17.29,100944.50,0.58,34.03,-118.26,70.30,9.00,50417.00,16080300.00,162385.00
+Clock Adjusted before=1491408454
+WS: >Waiting ms=1676 288
+WS: >Reading
+1491408512.00,-1.00,4.30,53.10,270.00,4.00,359.00,53.10,270.00,31.60,25.50,nan,nan,19.50,19.50,100958.75,3.02,34.03,-118.27,67.00,8.00,50417.00,16092000.00,186506.00
+Clock Adjusted before=1491408582
+WS: >Waiting ms=1667 288
+WS: >Reading
+1491408640.00,-1.00,4.30,53.10,270.00,4.00,359.00,4.30,270.00,31.80,25.90,nan,nan,21.71,21.71,100981.25,0.46,34.03,-118.27,66.00,10.00,50417.00,16103000.00,210352.00
+Clock Adjusted before=1491408582
+WS: >Waiting ms=1739 288
+WS: >Reading
+1491408640.00,-1.00,4.30,53.10,270.00,4.00,359.00,4.30,-1.00,32.30,24.90,nan,nan,23.93,23.92,100969.50,3.06,34.03,-118.27,67.40,7.00,50417.00,16114000.00,235777.00
+Clock Adjusted before=1491408710
+WS: >Waiting ms=1679 284
+WS: >Reading
+0.00,-1.00,4.30,53.10,270.00,4.00,359.00,4.30,-1.00,39.40,24.30,nan,nan,26.14,26.14,100516.00,0.02,34.03,-118.27,64.10,0.00,50417.00,16124900.00,256788.00
+WS: >Waiting ms=1052 189
+WS: >Reading
+1491408896.00,-1.00,4.30,53.10,270.00,4.00,359.00,4.30,-1.00,40.90,24.10,nan,nan,28.38,28.38,100507.75,0.02,34.03,-118.27,88.60,6.00,50417.00,16140000.00,273699.00
+Clock Adjusted before=1491408780
+WS: >Waiting ms=1824 284
+WS: >Reading
+Idle: Done
+## 1491408956 2017/4/5 16:15:56 1 4017.50 79.93 >TX
+TS: #0: +24 % 24 == 16 previousHour=0 hour=16 0
+TS: #1: +0 % 12 == 4 previousHour=0 hour=16 0
+TS: #2: +2 % 12 == 6 previousHour=0 hour=16 0
+TS: -1
+## 1491408956 2017/4/5 16:15:56 1 4017.50 79.93 >AW
+AW: RR
+1491408896.00,-1.00,4.30,53.10,270.00,4.00,359.00,4.30,-1.00,40.60,24.20,nan,nan,30.33,30.33,100511.25,0.05,34.03,-118.27,108.90,7.00,50417.00,16145600.00,295489.00
+Clock Adjusted before=1491408958
+WS: >Waiting ms=1576 286
+WS: >Reading
+1491409024.00,-1.00,4.30,53.10,270.00,4.00,359.00,4.30,-1.00,40.60,24.10,nan,nan,32.27,32.27,100508.00,0.05,34.03,-118.27,125.00,6.00,50417.00,16160300.00,315919.00
+Clock Adjusted before=1491408958
+WS: >Waiting ms=1432 286
+WS: >Reading
+1491409024.00,-1.00,4.30,53.10,270.00,4.00,359.00,4.30,-1.00,41.10,23.90,nan,nan,34.22,34.22,100504.25,0.05,34.03,-118.27,125.10,6.00,50417.00,16170500.00,336043.00
+Clock Adjusted before=1491409085
+WS: >Waiting ms=1438 286
+WS: >Reading
+1491409024.00,-1.00,4.30,53.10,270.00,4.00,359.00,4.30,-1.00,41.30,23.80,nan,nan,36.17,36.17,100504.25,0.05,34.03,-118.27,113.50,8.00,50417.00,16180000.00,359552.00
+Clock Adjusted before=1491409086
+WS: >Waiting ms=1431 286
+WS: >Reading
+1491409152.00,-1.00,4.30,53.10,270.00,4.00,359.00,4.30,-1.00,41.70,23.50,nan,nan,38.12,38.12,100513.75,0.06,34.03,-118.27,124.60,8.00,50417.00,16190800.00,381998.00
+Clock Adjusted before=1491409086
+WS: >Waiting ms=1445 286
+WS: >Reading
+1491409152.00,-1.00,4.30,53.10,270.00,4.00,359.00,4.30,-1.00,41.90,23.40,nan,nan,40.06,40.06,100524.75,0.05,34.03,-118.27,113.90,7.00,50417.00,16201000.00,403563.00
+Clock Adjusted before=1491409213
+WS: >Waiting ms=1437 286
+WS: >Reading
+1491409280.00,-1.00,4.30,53.10,270.00,4.00,359.00,4.30,-1.00,42.00,23.30,nan,nan,42.01,42.01,100526.75,0.06,34.03,-118.27,111.80,7.00,50417.00,16210400.00,426655.00
+Clock Adjusted before=1491409214
+WS: >Waiting ms=1437 286
+WS: >Reading
+1491409280.00,-1.00,4.30,53.10,270.00,4.00,359.00,4.30,-1.00,42.20,23.20,nan,nan,43.96,43.96,100531.50,0.05,34.03,-118.27,114.60,7.00,50417.00,16221200.00,449428.00
+Clock Adjusted before=1491409342
+WS: >Waiting ms=1439 286
+WS: >Reading
+1491409408.00,-1.00,4.30,53.10,270.00,4.00,359.00,4.30,-1.00,42.50,23.10,nan,nan,45.90,45.90,100527.75,0.06,34.03,-118.27,111.30,9.00,50417.00,16231500.00,471199.00
+Clock Adjusted before=1491409342
+WS: >Waiting ms=1453 286
+WS: >Reading
+1491409408.00,-1.00,4.30,53.10,270.00,4.00,359.00,4.30,-1.00,42.70,22.90,nan,nan,47.85,47.85,100525.75,0.05,34.03,-118.27,113.20,9.00,50417.00,16241700.00,494676.00
+Clock Adjusted before=1491409469
+WS: >Waiting ms=1429 286
+
+AW: Done
+AW: Exit
+## 1491409452 2017/4/5 16:24:12 1 4012.50 79.44 >ID
+Idle: Begin

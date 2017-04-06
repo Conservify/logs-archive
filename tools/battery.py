@@ -13,4 +13,7 @@ for line in fileinput.input():
 		fields = line.strip().split(' ')
 		time_utc = datetime.datetime.fromtimestamp(int(fields[1])).replace(tzinfo=from_zone)
 		time_local = time_utc.astimezone(to_zone)
-		print ','.join([ time_local.strftime('%s'), fields[5] ])
+		if len(fields) == 8:
+			print ','.join([ time_local.strftime('%s'), fields[6] ])
+		else:
+			print ','.join([ time_local.strftime('%s'), fields[5] ])

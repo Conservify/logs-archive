@@ -1,0 +1,16 @@
+set datafile separator ","
+set terminal png size 900,400
+set title "Battery"
+set ylabel "Level"
+set xlabel "Date"
+set xdata time
+set timefmt "%s"
+set format x "%m/%d %H"
+set ytics font "Verdana,8" 
+set xtics font "Verdana,8" 
+set key left top
+set grid
+
+plot "battery.csv" using 1:2 with lines lw 2 lt 3 title 'battery', 
+     "battery.csv" using 1:3 with lines lw 2 lt 3 title 'ws'
+     "battery.csv" using 1:4 with lines lw 2 lt 3 title 'rb'
